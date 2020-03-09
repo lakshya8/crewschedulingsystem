@@ -6,3 +6,7 @@ Overriding type converter from: org.apache.camel.support.SimpleTypeConverter@175
 Overriding type converter from: org.apache.camel.support.SimpleTypeConverter@58ea606c to: InstanceMethodTypeConverter: public org.apache.activemq.command.ActiveMQMessage org.apache.activemq.camel.converter.ActiveMQMessageConverter.toMessage(org.apache.camel.Exchange) throws javax.jms.JMSException
 Overriding type converter from: org.apache.camel.support.SimpleTypeConverter@6f45df59 to: InstanceMethodTypeConverter: public org.apache.camel.Processor org.apache.activemq.camel.converter.ActiveMQMessageConverter.toProcessor(javax.jms.MessageListener)
 HEllo
+Overriding type converter from: org.apache.camel.support.SimpleTypeConverter@1757cd72 to: InstanceMethodTypeConverter: public org.apache.activemq.command.ActiveMQMessage org.apache.activemq.camel.converter.ActiveMQMessageConverter.toMessage(org.apache.camel.Exchange) throws javax.jms.JMSException
+Overriding type converter from: org.apache.camel.support.SimpleTypeConverter@5c671d7f to: InstanceMethodTypeConverter: public org.apache.camel.Processor org.apache.activemq.camel.converter.ActiveMQMessageConverter.toProcessor(javax.jms.MessageListener)
+Overriding type converter from: org.apache.camel.support.SimpleTypeConverter@e4487af to: StaticMethodTypeConverter: public static org.apache.activemq.command.ActiveMQDestination org.apache.activemq.camel.converter.ActiveMQConverter.toDestination(java.lang.String)
+HEllo

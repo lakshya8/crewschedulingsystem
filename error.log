@@ -4,3 +4,6 @@ This message is generated from toString() method. ApplicationNAme : 1.0 : 101 : 
 Exchange[ExchangePattern: InOnly, BodyType: String, Body: 0 : Hello : msgCode-100 : 10min : ProcessNAme : step2
 1 : MId1 : Key Namr : ket Value : BidName : BSetValues
 This message is generated from toString() method. ApplicationNAme : 1.0 : 101 : Operation Name : serviceName : 2.0]
+Exchange[ExchangePattern: InOnly, BodyType: String, Body: 0 : Hello : msgCode-100 : 10min : ProcessNAme : step2
+1 : MId1 : Key Namr : ket Value : BidName : BSetValues
+This message is generated from toString() method. ApplicationNAme : 1.0 : 101 : Operation Name : serviceName : 2.0]
