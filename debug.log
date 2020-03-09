@@ -1,0 +1,620 @@
+Setting up management with factory: org.apache.camel.impl.engine.DefaultManagementStrategyFactory@2cfb4a64
+Adding routes from builder: Routes: []
+Warming up LRUCache ...
+Warming up LRUCache complete in 67 millis
+Using ClassResolver=org.apache.camel.impl.engine.DefaultClassResolver@636be97c, PackageScanClassResolver=org.apache.camel.impl.engine.DefaultPackageScanClassResolver@50a638b5, ApplicationContextClassLoader=null, RouteController=org.apache.camel.impl.engine.DefaultRouteController@1817d444
+Loading file META-INF/services/org/apache/camel/TypeConverterLoader to retrieve list of type converters, from url: jar:file:/C:/Users/Lakshaya/.m2/repository/org/apache/camel/camel-base/3.0.0/camel-base-3.0.0.jar!/META-INF/services/org/apache/camel/TypeConverterLoader
+Loading file META-INF/services/org/apache/camel/TypeConverterLoader to retrieve list of type converters, from url: jar:file:/C:/Users/Lakshaya/.m2/repository/org/apache/camel/camel-jaxp/3.0.0/camel-jaxp-3.0.0.jar!/META-INF/services/org/apache/camel/TypeConverterLoader
+Loading file META-INF/services/org/apache/camel/TypeConverterLoader to retrieve list of type converters, from url: jar:file:/C:/Users/Lakshaya/.m2/repository/org/apache/camel/camel-file/3.0.0/camel-file-3.0.0.jar!/META-INF/services/org/apache/camel/TypeConverterLoader
+Loading file META-INF/services/org/apache/camel/TypeConverterLoader to retrieve list of type converters, from url: jar:file:/C:/Users/Lakshaya/.m2/repository/org/apache/camel/camel-activemq/3.0.0/camel-activemq-3.0.0.jar!/META-INF/services/org/apache/camel/TypeConverterLoader
+Loading file META-INF/services/org/apache/camel/TypeConverterLoader to retrieve list of type converters, from url: jar:file:/C:/Users/Lakshaya/.m2/repository/org/apache/camel/camel-support/3.0.1/camel-support-3.0.1.jar!/META-INF/services/org/apache/camel/TypeConverterLoader
+Loading file META-INF/services/org/apache/camel/TypeConverterLoader to retrieve list of type converters, from url: jar:file:/C:/Users/Lakshaya/.m2/repository/org/apache/camel/camel-spring/3.0.1/camel-spring-3.0.1.jar!/META-INF/services/org/apache/camel/TypeConverterLoader
+Resolving TypeConverterLoader: org.apache.camel.converter.CamelConverterLoader
+TypeConverterLoader: org.apache.camel.converter.CamelConverterLoader loading converters
+Resolving TypeConverterLoader: org.apache.camel.converter.CollectionConverterLoader
+TypeConverterLoader: org.apache.camel.converter.CollectionConverterLoader loading converters
+Resolving TypeConverterLoader: org.apache.camel.converter.DateTimeConverterLoader
+TypeConverterLoader: org.apache.camel.converter.DateTimeConverterLoader loading converters
+Resolving TypeConverterLoader: org.apache.camel.converter.DurationConverterLoader
+TypeConverterLoader: org.apache.camel.converter.DurationConverterLoader loading converters
+Resolving TypeConverterLoader: org.apache.camel.converter.IOConverterLoader
+TypeConverterLoader: org.apache.camel.converter.IOConverterLoader loading converters
+Resolving TypeConverterLoader: org.apache.camel.converter.NIOConverterLoader
+TypeConverterLoader: org.apache.camel.converter.NIOConverterLoader loading converters
+Resolving TypeConverterLoader: org.apache.camel.converter.ObjectConverterLoader
+TypeConverterLoader: org.apache.camel.converter.ObjectConverterLoader loading converters
+Resolving TypeConverterLoader: org.apache.camel.converter.SQLConverterLoader
+TypeConverterLoader: org.apache.camel.converter.SQLConverterLoader loading converters
+Resolving TypeConverterLoader: org.apache.camel.converter.TimePatternConverterLoader
+TypeConverterLoader: org.apache.camel.converter.TimePatternConverterLoader loading converters
+Resolving TypeConverterLoader: org.apache.camel.impl.converter.UriTypeConverterLoader
+TypeConverterLoader: org.apache.camel.impl.converter.UriTypeConverterLoader loading converters
+Resolving TypeConverterLoader: org.apache.camel.converter.jaxp.DomConverterLoader
+TypeConverterLoader: org.apache.camel.converter.jaxp.DomConverterLoader loading converters
+Resolving TypeConverterLoader: org.apache.camel.converter.jaxp.StaxConverterLoader
+TypeConverterLoader: org.apache.camel.converter.jaxp.StaxConverterLoader loading converters
+Resolving TypeConverterLoader: org.apache.camel.converter.jaxp.StreamSourceConverterLoader
+TypeConverterLoader: org.apache.camel.converter.jaxp.StreamSourceConverterLoader loading converters
+Resolving TypeConverterLoader: org.apache.camel.converter.jaxp.XmlConverterLoader
+TypeConverterLoader: org.apache.camel.converter.jaxp.XmlConverterLoader loading converters
+Resolving TypeConverterLoader: org.apache.camel.util.xml.StreamSourceConverterLoader
+TypeConverterLoader: org.apache.camel.util.xml.StreamSourceConverterLoader loading converters
+Resolving TypeConverterLoader: org.apache.camel.component.file.GenericFileConverterLoader
+TypeConverterLoader: org.apache.camel.component.file.GenericFileConverterLoader loading converters
+Resolving TypeConverterLoader: org.apache.camel.component.activemq.converter.ActiveMQConverterLoader
+TypeConverterLoader: org.apache.camel.component.activemq.converter.ActiveMQConverterLoader loading converters
+Resolving TypeConverterLoader: org.apache.camel.component.activemq.converter.ActiveMQMessageConverterLoader
+TypeConverterLoader: org.apache.camel.component.activemq.converter.ActiveMQMessageConverterLoader loading converters
+Resolving TypeConverterLoader: org.apache.camel.converter.stream.StreamCacheConverterLoader
+TypeConverterLoader: org.apache.camel.converter.stream.StreamCacheConverterLoader loading converters
+Resolving TypeConverterLoader: org.apache.camel.spring.converter.ResourceConverterLoader
+TypeConverterLoader: org.apache.camel.spring.converter.ResourceConverterLoader loading converters
+Loading file META-INF/services/org/apache/camel/TypeConverter to retrieve list of packages, from url: jar:file:/C:/Users/Lakshaya/.m2/repository/org/apache/activemq/activemq-camel/5.15.4/activemq-camel-5.15.4.jar!/META-INF/services/org/apache/camel/TypeConverter
+Loaded 2 @Converter classes
+Found RestRegistryFactory: org.apache.camel.component.rest.DefaultRestRegistryFactory via: META-INF/services/org/apache/camel/rest-registry-factory
+Detected and using RestRegistryFactory: org.apache.camel.component.rest.DefaultRestRegistryFactory@2525ff7e
+Creating default ReactiveExecutor
+Found PropertiesComponent: org.apache.camel.component.properties.PropertiesComponent via: META-INF/services/org/apache/camel/properties-component-factory
+Detected and using PropertiesComponent: org.apache.camel.component.properties.PropertiesComponent@1f97cf0d
+Lookup Language with name simple in registry. Found: null
+Lookup Language with name simple-language in registry. Found: null
+Found BeanProxyFactory: org.apache.camel.component.bean.DefaultBeanProxyFactory via: META-INF/services/org/apache/camel/bean-proxy-factory
+Detected and using BeanProxyFactory: org.apache.camel.component.bean.DefaultBeanProxyFactory@696da30b
+Discovered component property configurer: jms -> org.apache.camel.component.jms.JmsComponentConfigurer@6a84a97d
+Discovered endpoint property configurer: jms -> org.apache.camel.component.jms.JmsEndpointConfigurer@20f5239f
+Using ComponentResolver: org.apache.camel.impl.engine.DefaultComponentResolver@f78a47e to resolve component with name: direct
+Lookup Component with name direct in registry. Found: null
+Lookup Component with name direct-component in registry. Found: null
+Found component: direct via type: org.apache.camel.component.direct.DirectComponent via: META-INF/services/org/apache/camel/component/direct
+Discovered component property configurer: direct -> org.apache.camel.component.direct.DirectComponentConfigurer@5b1669c0
+Discovered endpoint property configurer: direct -> org.apache.camel.component.direct.DirectEndpointConfigurer@4b741d6d
+Creating endpoint uri=[direct://start], path=[start]
+direct://start converted to endpoint: direct://start by component: org.apache.camel.component.direct.DirectComponent@563f38c4
+Initialize channel for target: 'process[Processor@0x3a7442c7]'
+Using ComponentResolver: org.apache.camel.impl.engine.DefaultComponentResolver@f78a47e to resolve component with name: log
+Lookup Component with name log in registry. Found: null
+Lookup Component with name log-component in registry. Found: null
+Found component: log via type: org.apache.camel.component.log.LogComponent via: META-INF/services/org/apache/camel/component/log
+Discovered component property configurer: log -> org.apache.camel.component.log.LogComponentConfigurer@59402b8f
+Discovered endpoint property configurer: log -> org.apache.camel.component.log.LogEndpointConfigurer@1033576a
+Creating endpoint uri=[log://?level=INFO], path=[]
+log://?level=INFO converted to endpoint: log://?level=INFO by component: org.apache.camel.component.log.LogComponent@1972e513
+Initialize channel for target: 'To[log:?level=INFO]'
+Creating endpoint uri=[jms://infoqueue], path=[infoqueue]
+jms://infoqueue converted to endpoint: jms://infoqueue by component: org.apache.camel.component.jms.JmsComponent@25be7b63
+Initialize channel for target: 'To[jms:infoqueue]'
+Lookup Language with name constant in registry. Found: null
+Lookup Language with name constant-language in registry. Found: null
+Initialize channel for target: 'SetHeader[ena, yes]'
+Initialize channel for target: 'process[Processor@0x1a245833]'
+Initialize channel for target: 'SetHeader[bunch, yes]'
+Initialize channel for target: 'process[Processor@0x7a5ceedd]'
+Creating endpoint uri=[jms://tranqueue], path=[tranqueue]
+jms://tranqueue converted to endpoint: jms://tranqueue by component: org.apache.camel.component.jms.JmsComponent@25be7b63
+Initialize channel for target: 'To[jms:tranqueue]'
+Creating endpoint uri=[log://?level=error], path=[]
+log://?level=error converted to endpoint: log://?level=error by component: org.apache.camel.component.log.LogComponent@1972e513
+Initialize channel for target: 'To[log:?level=error]'
+LogName is not configured, using route id as logName: route1
+Initialize channel for target: 'Log[Single]'
+Initialize channel for target: 'Choice[[When[{header{bunch} == yes} -> [process[Processor@0x7a5ceedd], To[jms:tranqueue], To[log:?level=error]]]] Otherwise[[Log[Single]]]]'
+Initialize channel for target: 'process[Processor@0x60f00693]'
+Using ComponentResolver: org.apache.camel.impl.engine.DefaultComponentResolver@f78a47e to resolve component with name: mock
+Lookup Component with name mock in registry. Found: null
+Lookup Component with name mock-component in registry. Found: null
+Found component: mock via type: org.apache.camel.component.mock.MockComponent via: META-INF/services/org/apache/camel/component/mock
+Discovered component property configurer: mock -> org.apache.camel.component.mock.MockComponentConfigurer@1b1cfb87
+Discovered endpoint property configurer: mock -> org.apache.camel.component.mock.MockEndpointConfigurer@20b2475a
+Creating endpoint uri=[mock://result], path=[result]
+mock://result converted to endpoint: mock://result by component: org.apache.camel.component.mock.MockComponent@1b919693
+Initialize channel for target: 'To[mock:result]'
+Initialize channel for target: 'Choice[[When[{header{ena} == yes} -> [process[Processor@0x1a245833], SetHeader[bunch, yes], Choice[[When[{header{bunch} == yes} -> [process[Processor@0x7a5ceedd], To[jms:tranqueue], To[log:?level=error]]]] Otherwise[[Log[Single]]]]]]] Otherwise[[process[Processor@0x60f00693], To[mock:result]]]]'
+Creating default HeadersMapFactory
+Using HeadersMapFactory: org.apache.camel.impl.engine.DefaultHeadersMapFactory@38145825
+Using ReactiveExecutor: org.apache.camel.impl.engine.DefaultReactiveExecutor@41330d4f
+Warming up route id: route1 having autoStartup=true
+Starting services on route: route1
+Starting child service on route: route1 -> Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$1@3a7442c7]], Channel[sendTo(log://?level=INFO)], Channel[sendTo(jms://infoqueue)], Channel[SetHeader(ena, yes)], Channel[choice{when Filter[if: header{ena} == yes do: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$2@1a245833]], Channel[SetHeader(bunch, yes)], Channel[choice{when Filter[if: header{bunch} == yes do: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$3@7a5ceedd]], Channel[sendTo(jms://tranqueue)], Channel[sendTo(log://?level=error)]]]], otherwise: Channel[Log(route1)[Single]]}]]]], otherwise: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$4@60f00693]], Channel[sendTo(mock://result)]]]}]]]
+Starting producer: Producer[log://?level=INFO]
+Starting producer: Producer[jms://infoqueue]
+Starting producer: Producer[jms://tranqueue]
+Starting producer: Producer[log://?level=error]
+Starting producer: Producer[mock://result]
+Starting child service on route: route1 -> Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$1@3a7442c7]], Channel[sendTo(log://?level=INFO)], Channel[sendTo(jms://infoqueue)], Channel[SetHeader(ena, yes)], Channel[choice{when Filter[if: header{ena} == yes do: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$2@1a245833]], Channel[SetHeader(bunch, yes)], Channel[choice{when Filter[if: header{bunch} == yes do: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$3@7a5ceedd]], Channel[sendTo(jms://tranqueue)], Channel[sendTo(log://?level=error)]]]], otherwise: Channel[Log(route1)[Single]]}]]]], otherwise: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$4@60f00693]], Channel[sendTo(mock://result)]]]}]]]
+Starting child service on route: route1 -> DelegateSync[com.process.LoggingProcess$1$1@3a7442c7]
+Starting child service on route: route1 -> Channel[DelegateSync[com.process.LoggingProcess$1$1@3a7442c7]]
+Starting child service on route: route1 -> sendTo(log://?level=INFO)
+Starting child service on route: route1 -> Channel[sendTo(log://?level=INFO)]
+Starting child service on route: route1 -> sendTo(jms://infoqueue)
+Starting child service on route: route1 -> Channel[sendTo(jms://infoqueue)]
+Starting child service on route: route1 -> SetHeader(ena, yes)
+Starting child service on route: route1 -> Channel[SetHeader(ena, yes)]
+Starting child service on route: route1 -> choice{when Filter[if: header{ena} == yes do: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$2@1a245833]], Channel[SetHeader(bunch, yes)], Channel[choice{when Filter[if: header{bunch} == yes do: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$3@7a5ceedd]], Channel[sendTo(jms://tranqueue)], Channel[sendTo(log://?level=error)]]]], otherwise: Channel[Log(route1)[Single]]}]]]], otherwise: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$4@60f00693]], Channel[sendTo(mock://result)]]]}
+Starting child service on route: route1 -> Channel[choice{when Filter[if: header{ena} == yes do: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$2@1a245833]], Channel[SetHeader(bunch, yes)], Channel[choice{when Filter[if: header{bunch} == yes do: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$3@7a5ceedd]], Channel[sendTo(jms://tranqueue)], Channel[sendTo(log://?level=error)]]]], otherwise: Channel[Log(route1)[Single]]}]]]], otherwise: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$4@60f00693]], Channel[sendTo(mock://result)]]]}]
+Starting child service on route: route1 -> Filter[if: header{ena} == yes do: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$2@1a245833]], Channel[SetHeader(bunch, yes)], Channel[choice{when Filter[if: header{bunch} == yes do: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$3@7a5ceedd]], Channel[sendTo(jms://tranqueue)], Channel[sendTo(log://?level=error)]]]], otherwise: Channel[Log(route1)[Single]]}]]]]
+Starting child service on route: route1 -> Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$2@1a245833]], Channel[SetHeader(bunch, yes)], Channel[choice{when Filter[if: header{bunch} == yes do: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$3@7a5ceedd]], Channel[sendTo(jms://tranqueue)], Channel[sendTo(log://?level=error)]]]], otherwise: Channel[Log(route1)[Single]]}]]]
+Starting child service on route: route1 -> DelegateSync[com.process.LoggingProcess$1$2@1a245833]
+Starting child service on route: route1 -> Channel[DelegateSync[com.process.LoggingProcess$1$2@1a245833]]
+Starting child service on route: route1 -> SetHeader(bunch, yes)
+Starting child service on route: route1 -> Channel[SetHeader(bunch, yes)]
+Starting child service on route: route1 -> choice{when Filter[if: header{bunch} == yes do: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$3@7a5ceedd]], Channel[sendTo(jms://tranqueue)], Channel[sendTo(log://?level=error)]]]], otherwise: Channel[Log(route1)[Single]]}
+Starting child service on route: route1 -> Channel[choice{when Filter[if: header{bunch} == yes do: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$3@7a5ceedd]], Channel[sendTo(jms://tranqueue)], Channel[sendTo(log://?level=error)]]]], otherwise: Channel[Log(route1)[Single]]}]
+Starting child service on route: route1 -> Filter[if: header{bunch} == yes do: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$3@7a5ceedd]], Channel[sendTo(jms://tranqueue)], Channel[sendTo(log://?level=error)]]]]
+Starting child service on route: route1 -> Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$3@7a5ceedd]], Channel[sendTo(jms://tranqueue)], Channel[sendTo(log://?level=error)]]]
+Starting child service on route: route1 -> DelegateSync[com.process.LoggingProcess$1$3@7a5ceedd]
+Starting child service on route: route1 -> Channel[DelegateSync[com.process.LoggingProcess$1$3@7a5ceedd]]
+Starting child service on route: route1 -> sendTo(jms://tranqueue)
+Starting child service on route: route1 -> Channel[sendTo(jms://tranqueue)]
+Starting child service on route: route1 -> sendTo(log://?level=error)
+Starting child service on route: route1 -> Channel[sendTo(log://?level=error)]
+Starting child service on route: route1 -> Log(route1)[Single]
+Starting child service on route: route1 -> Channel[Log(route1)[Single]]
+Starting child service on route: route1 -> Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$4@60f00693]], Channel[sendTo(mock://result)]]]
+Starting child service on route: route1 -> DelegateSync[com.process.LoggingProcess$1$4@60f00693]
+Starting child service on route: route1 -> Channel[DelegateSync[com.process.LoggingProcess$1$4@60f00693]]
+Starting child service on route: route1 -> sendTo(mock://result)
+Starting child service on route: route1 -> Channel[sendTo(mock://result)]
+Route: route1 >>> EventDrivenConsumerRoute[direct://start -> Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$1@3a7442c7]], Channel[sendTo(log://?level=INFO)], Channel[sendTo(jms://infoqueue)], Channel[SetHeader(ena, yes)], Channel[choice{when Filter[if: header{ena} == yes do: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$2@1a245833]], Channel[SetHeader(bunch, yes)], Channel[choice{when Filter[if: header{bunch} == yes do: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$3@7a5ceedd]], Channel[sendTo(jms://tranqueue)], Channel[sendTo(log://?level=error)]]]], otherwise: Channel[Log(route1)[Single]]}]]]], otherwise: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$4@60f00693]], Channel[sendTo(mock://result)]]]}]]]]
+Starting consumer (order: 1000) on route: route1
+Init consumer: Consumer[direct://start]
+Starting consumer: Consumer[direct://start]
+Starting producer: Producer[direct://start]
+>>>> direct://start Exchange[]
+Queuing reactive work: Step[ID-Lakshya-1583751410547-0-1,DefaultErrorHandler[DelegateSync[com.process.LoggingProcess$1$1@3a7442c7]]]
+Queuing reactive work: CamelInternalProcessor - UnitOfWork - afterProcess - DefaultErrorHandler[DelegateSync[com.process.LoggingProcess$1$1@3a7442c7]] - ID-Lakshya-1583751410547-0-1
+Queuing reactive work: Callback[org.apache.camel.processor.CamelInternalProcessor$$Lambda$519/768192757@3336e6b6]
+Queuing reactive work: Callback[org.apache.camel.processor.Pipeline$$Lambda$521/605420629@7c3fdb62]
+Queuing reactive work: Step[ID-Lakshya-1583751410547-0-1,Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$1@3a7442c7]], Channel[sendTo(log://?level=INFO)], Channel[sendTo(jms://infoqueue)], Channel[SetHeader(ena, yes)], Channel[choice{when Filter[if: header{ena} == yes do: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$2@1a245833]], Channel[SetHeader(bunch, yes)], Channel[choice{when Filter[if: header{bunch} == yes do: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$3@7a5ceedd]], Channel[sendTo(jms://tranqueue)], Channel[sendTo(log://?level=error)]]]], otherwise: Channel[Log(route1)[Single]]}]]]], otherwise: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$4@60f00693]], Channel[sendTo(mock://result)]]]}]]]]
+Queuing reactive work: Step[ID-Lakshya-1583751410547-0-1,DefaultErrorHandler[sendTo(log://?level=INFO)]]
+Queuing reactive work: CamelInternalProcessor - UnitOfWork - afterProcess - DefaultErrorHandler[sendTo(log://?level=INFO)] - ID-Lakshya-1583751410547-0-1
+>>>> log://?level=INFO Exchange[ID-Lakshya-1583751410547-0-1]
+Queuing reactive work: Callback[org.apache.camel.processor.CamelInternalProcessor$$Lambda$519/768192757@23202fce]
+Queuing reactive work: Callback[org.apache.camel.processor.Pipeline$$Lambda$521/605420629@7b993c65]
+Queuing reactive work: Step[ID-Lakshya-1583751410547-0-1,Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$1@3a7442c7]], Channel[sendTo(log://?level=INFO)], Channel[sendTo(jms://infoqueue)], Channel[SetHeader(ena, yes)], Channel[choice{when Filter[if: header{ena} == yes do: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$2@1a245833]], Channel[SetHeader(bunch, yes)], Channel[choice{when Filter[if: header{bunch} == yes do: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$3@7a5ceedd]], Channel[sendTo(jms://tranqueue)], Channel[sendTo(log://?level=error)]]]], otherwise: Channel[Log(route1)[Single]]}]]]], otherwise: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$4@60f00693]], Channel[sendTo(mock://result)]]]}]]]]
+Queuing reactive work: Step[ID-Lakshya-1583751410547-0-1,DefaultErrorHandler[sendTo(jms://infoqueue)]]
+Queuing reactive work: CamelInternalProcessor - UnitOfWork - afterProcess - DefaultErrorHandler[sendTo(jms://infoqueue)] - ID-Lakshya-1583751410547-0-1
+>>>> jms://infoqueue Exchange[ID-Lakshya-1583751410547-0-1]
+Initialized TaskRunnerFactory[ActiveMQ Task] using ExecutorService: java.util.concurrent.ThreadPoolExecutor@6cdba6dc[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+Reconnect was triggered but transport is not started yet. Wait for start to connect the transport.
+Started unconnected
+Waking up reconnect task
+urlList connectionList:[tcp://localhost:61616], from: [tcp://localhost:61616]
+Attempting 0th connect to: tcp://localhost:61616
+Sending: WireFormatInfo { version=12, properties={TcpNoDelayEnabled=true, SizePrefixDisabled=false, CacheSize=1024, ProviderName=ActiveMQ, StackTraceEnabled=true, PlatformDetails=Java, CacheEnabled=true, TightEncodingEnabled=true, MaxFrameSize=9223372036854775807, MaxInactivityDuration=30000, MaxInactivityDurationInitalDelay=10000, ProviderVersion=5.15.4}, magic=[A,c,t,i,v,e,M,Q]}
+Connection established
+Using min of local: WireFormatInfo { version=12, properties={TcpNoDelayEnabled=true, SizePrefixDisabled=false, CacheSize=1024, ProviderName=ActiveMQ, StackTraceEnabled=true, PlatformDetails=Java, CacheEnabled=true, TightEncodingEnabled=true, MaxFrameSize=9223372036854775807, MaxInactivityDuration=30000, MaxInactivityDurationInitalDelay=10000, ProviderVersion=5.15.4}, magic=[A,c,t,i,v,e,M,Q]} and remote: WireFormatInfo { version=12, properties={TcpNoDelayEnabled=true, SizePrefixDisabled=false, CacheSize=1024, ProviderName=ActiveMQ, StackTraceEnabled=true, PlatformDetails=Java, CacheEnabled=true, TightEncodingEnabled=true, MaxFrameSize=104857600, MaxInactivityDuration=30000, MaxInactivityDurationInitalDelay=10000, ProviderVersion=5.15.11}, magic=[A,c,t,i,v,e,M,Q]}
+Received WireFormat: WireFormatInfo { version=12, properties={TcpNoDelayEnabled=true, SizePrefixDisabled=false, CacheSize=1024, ProviderName=ActiveMQ, StackTraceEnabled=true, PlatformDetails=Java, CacheEnabled=true, TightEncodingEnabled=true, MaxFrameSize=104857600, MaxInactivityDuration=30000, MaxInactivityDurationInitalDelay=10000, ProviderVersion=5.15.11}, magic=[A,c,t,i,v,e,M,Q]}
+tcp://localhost/127.0.0.1:61616@64357 before negotiation: OpenWireFormat{version=12, cacheEnabled=false, stackTraceEnabled=false, tightEncodingEnabled=false, sizePrefixDisabled=false, maxFrameSize=9223372036854775807}
+tcp://localhost/127.0.0.1:61616@64357 after negotiation: OpenWireFormat{version=12, cacheEnabled=true, stackTraceEnabled=true, tightEncodingEnabled=true, sizePrefixDisabled=false, maxFrameSize=104857600}
+Executing callback on JMS Session: ActiveMQSession {id=ID:Lakshya-64356-1583751410694-1:1:1,started=false} java.lang.Object@4397ad89
+Sending JMS message to: queue://infoqueue with message: ActiveMQTextMessage {commandId = 0, responseRequired = false, messageId = null, originalDestination = null, originalTransactionId = null, producerId = null, destination = null, transactionId = null, expiration = 0, timestamp = 0, arrival = 0, brokerInTime = 0, brokerOutTime = 0, correlationId = null, replyTo = null, persistent = true, type = null, priority = 0, groupID = null, groupSequence = 0, targetConsumerId = null, compressed = false, userID = null, content = null, marshalledProperties = null, dataStructure = null, redeliveryCounter = 0, size = 0, properties = null, readOnlyProperties = false, readOnlyBody = false, droppable = false, jmsXGroupFirstForConsumer = false, text = 0 : Hello : msgCode-100 : 10min : ProcessNAme : step2}
+Shutdown of ExecutorService: java.util.concurrent.ThreadPoolExecutor@68df9280[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0] is shutdown: true and terminated: true took: 0.000 seconds.
+Stopped tcp://localhost:61616
+Forcing shutdown of ExecutorService: java.util.concurrent.ThreadPoolExecutor@6cdba6dc[Running, pool size = 2, active threads = 0, queued tasks = 0, completed tasks = 2]
+Shutdown of ExecutorService: java.util.concurrent.ThreadPoolExecutor@479460a6[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0] is shutdown: true and terminated: true took: 0.000 seconds.
+Stopping transport tcp://localhost/127.0.0.1:61616@64357
+Initialized TaskRunnerFactory[ActiveMQ Task] using ExecutorService: java.util.concurrent.ThreadPoolExecutor@68702e03[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+Closed socket Socket[addr=localhost/127.0.0.1,port=61616,localport=64357]
+Forcing shutdown of ExecutorService: java.util.concurrent.ThreadPoolExecutor@68702e03[Running, pool size = 1, active threads = 0, queued tasks = 0, completed tasks = 1]
+Queuing reactive work: Callback[org.apache.camel.processor.CamelInternalProcessor$$Lambda$519/768192757@2421cc4]
+Queuing reactive work: Callback[org.apache.camel.processor.Pipeline$$Lambda$521/605420629@30c93896]
+Queuing reactive work: Step[ID-Lakshya-1583751410547-0-1,Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$1@3a7442c7]], Channel[sendTo(log://?level=INFO)], Channel[sendTo(jms://infoqueue)], Channel[SetHeader(ena, yes)], Channel[choice{when Filter[if: header{ena} == yes do: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$2@1a245833]], Channel[SetHeader(bunch, yes)], Channel[choice{when Filter[if: header{bunch} == yes do: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$3@7a5ceedd]], Channel[sendTo(jms://tranqueue)], Channel[sendTo(log://?level=error)]]]], otherwise: Channel[Log(route1)[Single]]}]]]], otherwise: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$4@60f00693]], Channel[sendTo(mock://result)]]]}]]]]
+Queuing reactive work: Step[ID-Lakshya-1583751410547-0-1,DefaultErrorHandler[SetHeader(ena, yes)]]
+Queuing reactive work: CamelInternalProcessor - UnitOfWork - afterProcess - DefaultErrorHandler[SetHeader(ena, yes)] - ID-Lakshya-1583751410547-0-1
+Queuing reactive work: Callback[org.apache.camel.processor.CamelInternalProcessor$$Lambda$519/768192757@59a008ba]
+Queuing reactive work: Callback[org.apache.camel.processor.Pipeline$$Lambda$521/605420629@338c99c8]
+Queuing reactive work: Step[ID-Lakshya-1583751410547-0-1,Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$1@3a7442c7]], Channel[sendTo(log://?level=INFO)], Channel[sendTo(jms://infoqueue)], Channel[SetHeader(ena, yes)], Channel[choice{when Filter[if: header{ena} == yes do: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$2@1a245833]], Channel[SetHeader(bunch, yes)], Channel[choice{when Filter[if: header{bunch} == yes do: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$3@7a5ceedd]], Channel[sendTo(jms://tranqueue)], Channel[sendTo(log://?level=error)]]]], otherwise: Channel[Log(route1)[Single]]}]]]], otherwise: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$4@60f00693]], Channel[sendTo(mock://result)]]]}]]]]
+Queuing reactive work: Step[ID-Lakshya-1583751410547-0-1,DefaultErrorHandler[choice{when Filter[if: header{ena} == yes do: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$2@1a245833]], Channel[SetHeader(bunch, yes)], Channel[choice{when Filter[if: header{bunch} == yes do: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$3@7a5ceedd]], Channel[sendTo(jms://tranqueue)], Channel[sendTo(log://?level=error)]]]], otherwise: Channel[Log(route1)[Single]]}]]]], otherwise: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$4@60f00693]], Channel[sendTo(mock://result)]]]}]]
+Queuing reactive work: CamelInternalProcessor - UnitOfWork - afterProcess - DefaultErrorHandler[choice{when Filter[if: header{ena} == yes do: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$2@1a245833]], Channel[SetHeader(bunch, yes)], Channel[choice{when Filter[if: header{bunch} == yes do: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$3@7a5ceedd]], Channel[sendTo(jms://tranqueue)], Channel[sendTo(log://?level=error)]]]], otherwise: Channel[Log(route1)[Single]]}]]]], otherwise: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$4@60f00693]], Channel[sendTo(mock://result)]]]}] - ID-Lakshya-1583751410547-0-1
+Lookup Language with name header in registry. Found: null
+Lookup Language with name header-language in registry. Found: null
+Filter matches: true for exchange: Exchange[ID-Lakshya-1583751410547-0-1]
+Queuing reactive work: Step[ID-Lakshya-1583751410547-0-1,Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$2@1a245833]], Channel[SetHeader(bunch, yes)], Channel[choice{when Filter[if: header{bunch} == yes do: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$3@7a5ceedd]], Channel[sendTo(jms://tranqueue)], Channel[sendTo(log://?level=error)]]]], otherwise: Channel[Log(route1)[Single]]}]]]]
+Queuing reactive work: Step[ID-Lakshya-1583751410547-0-1,DefaultErrorHandler[DelegateSync[com.process.LoggingProcess$1$2@1a245833]]]
+Queuing reactive work: CamelInternalProcessor - UnitOfWork - afterProcess - DefaultErrorHandler[DelegateSync[com.process.LoggingProcess$1$2@1a245833]] - ID-Lakshya-1583751410547-0-1
+Queuing reactive work: Callback[org.apache.camel.processor.CamelInternalProcessor$$Lambda$519/768192757@5b6ec132]
+Queuing reactive work: Callback[org.apache.camel.processor.Pipeline$$Lambda$521/605420629@5c44c582]
+Queuing reactive work: Step[ID-Lakshya-1583751410547-0-1,Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$2@1a245833]], Channel[SetHeader(bunch, yes)], Channel[choice{when Filter[if: header{bunch} == yes do: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$3@7a5ceedd]], Channel[sendTo(jms://tranqueue)], Channel[sendTo(log://?level=error)]]]], otherwise: Channel[Log(route1)[Single]]}]]]]
+Queuing reactive work: Step[ID-Lakshya-1583751410547-0-1,DefaultErrorHandler[SetHeader(bunch, yes)]]
+Queuing reactive work: CamelInternalProcessor - UnitOfWork - afterProcess - DefaultErrorHandler[SetHeader(bunch, yes)] - ID-Lakshya-1583751410547-0-1
+Queuing reactive work: Callback[org.apache.camel.processor.CamelInternalProcessor$$Lambda$519/768192757@67d18ed7]
+Queuing reactive work: Callback[org.apache.camel.processor.Pipeline$$Lambda$521/605420629@2c78d320]
+Queuing reactive work: Step[ID-Lakshya-1583751410547-0-1,Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$2@1a245833]], Channel[SetHeader(bunch, yes)], Channel[choice{when Filter[if: header{bunch} == yes do: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$3@7a5ceedd]], Channel[sendTo(jms://tranqueue)], Channel[sendTo(log://?level=error)]]]], otherwise: Channel[Log(route1)[Single]]}]]]]
+Queuing reactive work: Step[ID-Lakshya-1583751410547-0-1,DefaultErrorHandler[choice{when Filter[if: header{bunch} == yes do: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$3@7a5ceedd]], Channel[sendTo(jms://tranqueue)], Channel[sendTo(log://?level=error)]]]], otherwise: Channel[Log(route1)[Single]]}]]
+Queuing reactive work: CamelInternalProcessor - UnitOfWork - afterProcess - DefaultErrorHandler[choice{when Filter[if: header{bunch} == yes do: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$3@7a5ceedd]], Channel[sendTo(jms://tranqueue)], Channel[sendTo(log://?level=error)]]]], otherwise: Channel[Log(route1)[Single]]}] - ID-Lakshya-1583751410547-0-1
+Filter matches: true for exchange: Exchange[ID-Lakshya-1583751410547-0-1]
+Queuing reactive work: Step[ID-Lakshya-1583751410547-0-1,Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$3@7a5ceedd]], Channel[sendTo(jms://tranqueue)], Channel[sendTo(log://?level=error)]]]]
+Queuing reactive work: Step[ID-Lakshya-1583751410547-0-1,DefaultErrorHandler[DelegateSync[com.process.LoggingProcess$1$3@7a5ceedd]]]
+Queuing reactive work: CamelInternalProcessor - UnitOfWork - afterProcess - DefaultErrorHandler[DelegateSync[com.process.LoggingProcess$1$3@7a5ceedd]] - ID-Lakshya-1583751410547-0-1
+Queuing reactive work: Callback[org.apache.camel.processor.CamelInternalProcessor$$Lambda$519/768192757@132e0cc]
+Queuing reactive work: Callback[org.apache.camel.processor.Pipeline$$Lambda$521/605420629@7b205dbd]
+Queuing reactive work: Step[ID-Lakshya-1583751410547-0-1,Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$3@7a5ceedd]], Channel[sendTo(jms://tranqueue)], Channel[sendTo(log://?level=error)]]]]
+Queuing reactive work: Step[ID-Lakshya-1583751410547-0-1,DefaultErrorHandler[sendTo(jms://tranqueue)]]
+Queuing reactive work: CamelInternalProcessor - UnitOfWork - afterProcess - DefaultErrorHandler[sendTo(jms://tranqueue)] - ID-Lakshya-1583751410547-0-1
+>>>> jms://tranqueue Exchange[ID-Lakshya-1583751410547-0-1]
+Initialized TaskRunnerFactory[ActiveMQ Task] using ExecutorService: java.util.concurrent.ThreadPoolExecutor@106cc338[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+Reconnect was triggered but transport is not started yet. Wait for start to connect the transport.
+Started unconnected
+Waking up reconnect task
+urlList connectionList:[tcp://localhost:61616], from: [tcp://localhost:61616]
+Attempting 0th connect to: tcp://localhost:61616
+Sending: WireFormatInfo { version=12, properties={TcpNoDelayEnabled=true, SizePrefixDisabled=false, CacheSize=1024, ProviderName=ActiveMQ, StackTraceEnabled=true, PlatformDetails=Java, CacheEnabled=true, TightEncodingEnabled=true, MaxFrameSize=9223372036854775807, MaxInactivityDuration=30000, MaxInactivityDurationInitalDelay=10000, ProviderVersion=5.15.4}, magic=[A,c,t,i,v,e,M,Q]}
+Connection established
+Using min of local: WireFormatInfo { version=12, properties={TcpNoDelayEnabled=true, SizePrefixDisabled=false, CacheSize=1024, ProviderName=ActiveMQ, StackTraceEnabled=true, PlatformDetails=Java, CacheEnabled=true, TightEncodingEnabled=true, MaxFrameSize=9223372036854775807, MaxInactivityDuration=30000, MaxInactivityDurationInitalDelay=10000, ProviderVersion=5.15.4}, magic=[A,c,t,i,v,e,M,Q]} and remote: WireFormatInfo { version=12, properties={TcpNoDelayEnabled=true, SizePrefixDisabled=false, CacheSize=1024, ProviderName=ActiveMQ, StackTraceEnabled=true, PlatformDetails=Java, CacheEnabled=true, TightEncodingEnabled=true, MaxFrameSize=104857600, MaxInactivityDuration=30000, MaxInactivityDurationInitalDelay=10000, ProviderVersion=5.15.11}, magic=[A,c,t,i,v,e,M,Q]}
+Received WireFormat: WireFormatInfo { version=12, properties={TcpNoDelayEnabled=true, SizePrefixDisabled=false, CacheSize=1024, ProviderName=ActiveMQ, StackTraceEnabled=true, PlatformDetails=Java, CacheEnabled=true, TightEncodingEnabled=true, MaxFrameSize=104857600, MaxInactivityDuration=30000, MaxInactivityDurationInitalDelay=10000, ProviderVersion=5.15.11}, magic=[A,c,t,i,v,e,M,Q]}
+tcp://localhost/127.0.0.1:61616@64358 before negotiation: OpenWireFormat{version=12, cacheEnabled=false, stackTraceEnabled=false, tightEncodingEnabled=false, sizePrefixDisabled=false, maxFrameSize=9223372036854775807}
+tcp://localhost/127.0.0.1:61616@64358 after negotiation: OpenWireFormat{version=12, cacheEnabled=true, stackTraceEnabled=true, tightEncodingEnabled=true, sizePrefixDisabled=false, maxFrameSize=104857600}
+Executing callback on JMS Session: ActiveMQSession {id=ID:Lakshya-64356-1583751410694-1:2:1,started=false} java.lang.Object@15713d56
+Sending JMS message to: queue://tranqueue with message: ActiveMQTextMessage {commandId = 0, responseRequired = false, messageId = null, originalDestination = null, originalTransactionId = null, producerId = null, destination = null, transactionId = null, expiration = 0, timestamp = 0, arrival = 0, brokerInTime = 0, brokerOutTime = 0, correlationId = null, replyTo = null, persistent = true, type = null, priority = 0, groupID = null, groupSequence = 0, targetConsumerId = null, compressed = false, userID = null, content = null, marshalledProperties = null, dataStructure = null, redeliveryCounter = 0, size = 0, properties = null, readOnlyProperties = false, readOnlyBody = false, droppable = false, jmsXGroupFirstForConsumer = false, text = 0 : Hello : msgCode-100 : 10min : ProcessNAme...ceName : 2.0}
+Shutdown of ExecutorService: java.util.concurrent.ThreadPoolExecutor@26ceffa8[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0] is shutdown: true and terminated: true took: 0.000 seconds.
+Stopped tcp://localhost:61616
+Forcing shutdown of ExecutorService: java.util.concurrent.ThreadPoolExecutor@106cc338[Running, pool size = 2, active threads = 0, queued tasks = 0, completed tasks = 2]
+Shutdown of ExecutorService: java.util.concurrent.ThreadPoolExecutor@600b90df[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0] is shutdown: true and terminated: true took: 0.000 seconds.
+Stopping transport tcp://localhost/127.0.0.1:61616@64358
+Initialized TaskRunnerFactory[ActiveMQ Task] using ExecutorService: java.util.concurrent.ThreadPoolExecutor@7c8c9a05[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+Closed socket Socket[addr=localhost/127.0.0.1,port=61616,localport=64358]
+Forcing shutdown of ExecutorService: java.util.concurrent.ThreadPoolExecutor@7c8c9a05[Running, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+Queuing reactive work: Callback[org.apache.camel.processor.CamelInternalProcessor$$Lambda$519/768192757@5c2375a9]
+Queuing reactive work: Callback[org.apache.camel.processor.Pipeline$$Lambda$521/605420629@60129b9a]
+Queuing reactive work: Step[ID-Lakshya-1583751410547-0-1,Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$3@7a5ceedd]], Channel[sendTo(jms://tranqueue)], Channel[sendTo(log://?level=error)]]]]
+Queuing reactive work: Step[ID-Lakshya-1583751410547-0-1,DefaultErrorHandler[sendTo(log://?level=error)]]
+Queuing reactive work: CamelInternalProcessor - UnitOfWork - afterProcess - DefaultErrorHandler[sendTo(log://?level=error)] - ID-Lakshya-1583751410547-0-1
+>>>> log://?level=error Exchange[ID-Lakshya-1583751410547-0-1]
+Queuing reactive work: Callback[org.apache.camel.processor.CamelInternalProcessor$$Lambda$519/768192757@78d6692f]
+Queuing reactive work: Callback[org.apache.camel.processor.Pipeline$$Lambda$521/605420629@7a55af6b]
+Queuing reactive work: Step[ID-Lakshya-1583751410547-0-1,Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$3@7a5ceedd]], Channel[sendTo(jms://tranqueue)], Channel[sendTo(log://?level=error)]]]]
+Queuing reactive work: Callback[org.apache.camel.processor.ChoiceProcessor$1@3d9c13b5]
+Queuing reactive work: Callback[org.apache.camel.processor.CamelInternalProcessor$$Lambda$519/768192757@492691d7]
+Queuing reactive work: Callback[org.apache.camel.processor.Pipeline$$Lambda$521/605420629@27216cd]
+Queuing reactive work: Step[ID-Lakshya-1583751410547-0-1,Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$2@1a245833]], Channel[SetHeader(bunch, yes)], Channel[choice{when Filter[if: header(bunch) == yes do: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$3@7a5ceedd]], Channel[sendTo(jms://tranqueue)], Channel[sendTo(log://?level=error)]]]], otherwise: Channel[Log(route1)[Single]]}]]]]
+Queuing reactive work: Callback[org.apache.camel.processor.ChoiceProcessor$1@558bdf1f]
+Queuing reactive work: Callback[org.apache.camel.processor.CamelInternalProcessor$$Lambda$519/768192757@8576fa0]
+Queuing reactive work: Callback[org.apache.camel.processor.Pipeline$$Lambda$521/605420629@7582ff54]
+Queuing reactive work: Step[ID-Lakshya-1583751410547-0-1,Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$1@3a7442c7]], Channel[sendTo(log://?level=INFO)], Channel[sendTo(jms://infoqueue)], Channel[SetHeader(ena, yes)], Channel[choice{when Filter[if: header(ena) == yes do: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$2@1a245833]], Channel[SetHeader(bunch, yes)], Channel[choice{when Filter[if: header(bunch) == yes do: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$3@7a5ceedd]], Channel[sendTo(jms://tranqueue)], Channel[sendTo(log://?level=error)]]]], otherwise: Channel[Log(route1)[Single]]}]]]], otherwise: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$4@60f00693]], Channel[sendTo(mock://result)]]]}]]]]
+Queuing reactive work: Callback[org.apache.camel.processor.CamelInternalProcessor$$Lambda$519/768192757@67545b57]
+Queuing reactive work: Callback[org.apache.camel.processor.SharedCamelInternalProcessor$InternalCallback@6c2c1385]
+Queuing reactive work: Callback[org.apache.camel.impl.engine.DefaultAsyncProcessorAwaitManager$$Lambda$516/1871612052@78641d23]
+Using ComponentResolver: org.apache.camel.impl.engine.DefaultComponentResolver@f78a47e to resolve component with name: seda
+Lookup Component with name seda in registry. Found: null
+Lookup Component with name seda-component in registry. Found: null
+Found component: seda via type: org.apache.camel.component.seda.SedaComponent via: META-INF/services/org/apache/camel/component/seda
+Discovered component property configurer: seda -> org.apache.camel.component.seda.SedaComponentConfigurer@2fd953a6
+Discovered endpoint property configurer: seda -> org.apache.camel.component.seda.SedaEndpointConfigurer@66c61024
+Creating endpoint uri=[seda://end], path=[end]
+seda://end converted to endpoint: seda://end by component: org.apache.camel.component.seda.SedaComponent@35432107
+Created queue seda://end with size 1000
+<<<< seda://end
+Setting up management with factory: org.apache.camel.impl.engine.DefaultManagementStrategyFactory@2cfb4a64
+Adding routes from builder: Routes: []
+Warming up LRUCache ...
+Warming up LRUCache complete in 72 millis
+Using ClassResolver=org.apache.camel.impl.engine.DefaultClassResolver@29626d54, PackageScanClassResolver=org.apache.camel.impl.engine.DefaultPackageScanClassResolver@5a63f509, ApplicationContextClassLoader=null, RouteController=org.apache.camel.impl.engine.DefaultRouteController@6e4784bc
+Loading file META-INF/services/org/apache/camel/TypeConverterLoader to retrieve list of type converters, from url: jar:file:/C:/Users/Lakshaya/.m2/repository/org/apache/camel/camel-base/3.0.0/camel-base-3.0.0.jar!/META-INF/services/org/apache/camel/TypeConverterLoader
+Loading file META-INF/services/org/apache/camel/TypeConverterLoader to retrieve list of type converters, from url: jar:file:/C:/Users/Lakshaya/.m2/repository/org/apache/camel/camel-jaxp/3.0.0/camel-jaxp-3.0.0.jar!/META-INF/services/org/apache/camel/TypeConverterLoader
+Loading file META-INF/services/org/apache/camel/TypeConverterLoader to retrieve list of type converters, from url: jar:file:/C:/Users/Lakshaya/.m2/repository/org/apache/camel/camel-file/3.0.0/camel-file-3.0.0.jar!/META-INF/services/org/apache/camel/TypeConverterLoader
+Loading file META-INF/services/org/apache/camel/TypeConverterLoader to retrieve list of type converters, from url: jar:file:/C:/Users/Lakshaya/.m2/repository/org/apache/camel/camel-activemq/3.0.0/camel-activemq-3.0.0.jar!/META-INF/services/org/apache/camel/TypeConverterLoader
+Loading file META-INF/services/org/apache/camel/TypeConverterLoader to retrieve list of type converters, from url: jar:file:/C:/Users/Lakshaya/.m2/repository/org/apache/camel/camel-support/3.0.1/camel-support-3.0.1.jar!/META-INF/services/org/apache/camel/TypeConverterLoader
+Loading file META-INF/services/org/apache/camel/TypeConverterLoader to retrieve list of type converters, from url: jar:file:/C:/Users/Lakshaya/.m2/repository/org/apache/camel/camel-spring/3.0.1/camel-spring-3.0.1.jar!/META-INF/services/org/apache/camel/TypeConverterLoader
+Resolving TypeConverterLoader: org.apache.camel.converter.CamelConverterLoader
+TypeConverterLoader: org.apache.camel.converter.CamelConverterLoader loading converters
+Resolving TypeConverterLoader: org.apache.camel.converter.CollectionConverterLoader
+TypeConverterLoader: org.apache.camel.converter.CollectionConverterLoader loading converters
+Resolving TypeConverterLoader: org.apache.camel.converter.DateTimeConverterLoader
+TypeConverterLoader: org.apache.camel.converter.DateTimeConverterLoader loading converters
+Resolving TypeConverterLoader: org.apache.camel.converter.DurationConverterLoader
+TypeConverterLoader: org.apache.camel.converter.DurationConverterLoader loading converters
+Resolving TypeConverterLoader: org.apache.camel.converter.IOConverterLoader
+TypeConverterLoader: org.apache.camel.converter.IOConverterLoader loading converters
+Resolving TypeConverterLoader: org.apache.camel.converter.NIOConverterLoader
+TypeConverterLoader: org.apache.camel.converter.NIOConverterLoader loading converters
+Resolving TypeConverterLoader: org.apache.camel.converter.ObjectConverterLoader
+TypeConverterLoader: org.apache.camel.converter.ObjectConverterLoader loading converters
+Resolving TypeConverterLoader: org.apache.camel.converter.SQLConverterLoader
+TypeConverterLoader: org.apache.camel.converter.SQLConverterLoader loading converters
+Resolving TypeConverterLoader: org.apache.camel.converter.TimePatternConverterLoader
+TypeConverterLoader: org.apache.camel.converter.TimePatternConverterLoader loading converters
+Resolving TypeConverterLoader: org.apache.camel.impl.converter.UriTypeConverterLoader
+TypeConverterLoader: org.apache.camel.impl.converter.UriTypeConverterLoader loading converters
+Resolving TypeConverterLoader: org.apache.camel.converter.jaxp.DomConverterLoader
+TypeConverterLoader: org.apache.camel.converter.jaxp.DomConverterLoader loading converters
+Resolving TypeConverterLoader: org.apache.camel.converter.jaxp.StaxConverterLoader
+TypeConverterLoader: org.apache.camel.converter.jaxp.StaxConverterLoader loading converters
+Resolving TypeConverterLoader: org.apache.camel.converter.jaxp.StreamSourceConverterLoader
+TypeConverterLoader: org.apache.camel.converter.jaxp.StreamSourceConverterLoader loading converters
+Resolving TypeConverterLoader: org.apache.camel.converter.jaxp.XmlConverterLoader
+TypeConverterLoader: org.apache.camel.converter.jaxp.XmlConverterLoader loading converters
+Resolving TypeConverterLoader: org.apache.camel.util.xml.StreamSourceConverterLoader
+TypeConverterLoader: org.apache.camel.util.xml.StreamSourceConverterLoader loading converters
+Resolving TypeConverterLoader: org.apache.camel.component.file.GenericFileConverterLoader
+TypeConverterLoader: org.apache.camel.component.file.GenericFileConverterLoader loading converters
+Resolving TypeConverterLoader: org.apache.camel.component.activemq.converter.ActiveMQConverterLoader
+TypeConverterLoader: org.apache.camel.component.activemq.converter.ActiveMQConverterLoader loading converters
+Resolving TypeConverterLoader: org.apache.camel.component.activemq.converter.ActiveMQMessageConverterLoader
+TypeConverterLoader: org.apache.camel.component.activemq.converter.ActiveMQMessageConverterLoader loading converters
+Resolving TypeConverterLoader: org.apache.camel.converter.stream.StreamCacheConverterLoader
+TypeConverterLoader: org.apache.camel.converter.stream.StreamCacheConverterLoader loading converters
+Resolving TypeConverterLoader: org.apache.camel.spring.converter.ResourceConverterLoader
+TypeConverterLoader: org.apache.camel.spring.converter.ResourceConverterLoader loading converters
+Loading file META-INF/services/org/apache/camel/TypeConverter to retrieve list of packages, from url: jar:file:/C:/Users/Lakshaya/.m2/repository/org/apache/activemq/activemq-camel/5.15.4/activemq-camel-5.15.4.jar!/META-INF/services/org/apache/camel/TypeConverter
+Loaded 2 @Converter classes
+Found RestRegistryFactory: org.apache.camel.component.rest.DefaultRestRegistryFactory via: META-INF/services/org/apache/camel/rest-registry-factory
+Detected and using RestRegistryFactory: org.apache.camel.component.rest.DefaultRestRegistryFactory@71c3b41
+Creating default ReactiveExecutor
+Found PropertiesComponent: org.apache.camel.component.properties.PropertiesComponent via: META-INF/services/org/apache/camel/properties-component-factory
+Detected and using PropertiesComponent: org.apache.camel.component.properties.PropertiesComponent@776b83cc
+Lookup Language with name simple in registry. Found: null
+Lookup Language with name simple-language in registry. Found: null
+Found BeanProxyFactory: org.apache.camel.component.bean.DefaultBeanProxyFactory via: META-INF/services/org/apache/camel/bean-proxy-factory
+Detected and using BeanProxyFactory: org.apache.camel.component.bean.DefaultBeanProxyFactory@26275bef
+Discovered component property configurer: jms -> org.apache.camel.component.jms.JmsComponentConfigurer@1ba9117e
+Discovered endpoint property configurer: jms -> org.apache.camel.component.jms.JmsEndpointConfigurer@51dcb805
+Using ComponentResolver: org.apache.camel.impl.engine.DefaultComponentResolver@e350b40 to resolve component with name: direct
+Lookup Component with name direct in registry. Found: null
+Lookup Component with name direct-component in registry. Found: null
+Found component: direct via type: org.apache.camel.component.direct.DirectComponent via: META-INF/services/org/apache/camel/component/direct
+Discovered component property configurer: direct -> org.apache.camel.component.direct.DirectComponentConfigurer@1a942c18
+Discovered endpoint property configurer: direct -> org.apache.camel.component.direct.DirectEndpointConfigurer@63376bed
+Creating endpoint uri=[direct://start], path=[start]
+direct://start converted to endpoint: direct://start by component: org.apache.camel.component.direct.DirectComponent@7526515b
+Initialize channel for target: 'process[Processor@0x7674f035]'
+Using ComponentResolver: org.apache.camel.impl.engine.DefaultComponentResolver@e350b40 to resolve component with name: log
+Lookup Component with name log in registry. Found: null
+Lookup Component with name log-component in registry. Found: null
+Found component: log via type: org.apache.camel.component.log.LogComponent via: META-INF/services/org/apache/camel/component/log
+Discovered component property configurer: log -> org.apache.camel.component.log.LogComponentConfigurer@353352b6
+Discovered endpoint property configurer: log -> org.apache.camel.component.log.LogEndpointConfigurer@2767e23c
+Creating endpoint uri=[log://?level=INFO], path=[]
+log://?level=INFO converted to endpoint: log://?level=INFO by component: org.apache.camel.component.log.LogComponent@7c137fd5
+Initialize channel for target: 'To[log:?level=INFO]'
+Creating endpoint uri=[jms://infoqueue], path=[infoqueue]
+jms://infoqueue converted to endpoint: jms://infoqueue by component: org.apache.camel.component.jms.JmsComponent@7188af83
+Initialize channel for target: 'To[jms:infoqueue]'
+Lookup Language with name constant in registry. Found: null
+Lookup Language with name constant-language in registry. Found: null
+Initialize channel for target: 'SetHeader[ena, yes]'
+Initialize channel for target: 'process[Processor@0x6f10d5b6]'
+Initialize channel for target: 'SetHeader[bunch, yes]'
+Initialize channel for target: 'process[Processor@0x433defed]'
+Creating endpoint uri=[jms://tranqueue], path=[tranqueue]
+jms://tranqueue converted to endpoint: jms://tranqueue by component: org.apache.camel.component.jms.JmsComponent@7188af83
+Initialize channel for target: 'To[jms:tranqueue]'
+Creating endpoint uri=[log://?level=error], path=[]
+log://?level=error converted to endpoint: log://?level=error by component: org.apache.camel.component.log.LogComponent@7c137fd5
+Initialize channel for target: 'To[log:?level=error]'
+LogName is not configured, using route id as logName: route1
+Initialize channel for target: 'Log[Single]'
+Initialize channel for target: 'Choice[[When[{header{bunch} == yes} -> [process[Processor@0x433defed], To[jms:tranqueue], To[log:?level=error]]]] Otherwise[[Log[Single]]]]'
+Initialize channel for target: 'process[Processor@0x194fad1]'
+Using ComponentResolver: org.apache.camel.impl.engine.DefaultComponentResolver@e350b40 to resolve component with name: mock
+Lookup Component with name mock in registry. Found: null
+Lookup Component with name mock-component in registry. Found: null
+Found component: mock via type: org.apache.camel.component.mock.MockComponent via: META-INF/services/org/apache/camel/component/mock
+Discovered component property configurer: mock -> org.apache.camel.component.mock.MockComponentConfigurer@15888343
+Discovered endpoint property configurer: mock -> org.apache.camel.component.mock.MockEndpointConfigurer@6a8658ff
+Creating endpoint uri=[mock://result], path=[result]
+mock://result converted to endpoint: mock://result by component: org.apache.camel.component.mock.MockComponent@6b09fb41
+Initialize channel for target: 'To[mock:result]'
+Initialize channel for target: 'Choice[[When[{header{ena} == yes} -> [process[Processor@0x6f10d5b6], SetHeader[bunch, yes], Choice[[When[{header{bunch} == yes} -> [process[Processor@0x433defed], To[jms:tranqueue], To[log:?level=error]]]] Otherwise[[Log[Single]]]]]]] Otherwise[[process[Processor@0x194fad1], To[mock:result]]]]'
+Using ComponentResolver: org.apache.camel.impl.engine.DefaultComponentResolver@e350b40 to resolve component with name: seda
+Lookup Component with name seda in registry. Found: null
+Lookup Component with name seda-component in registry. Found: null
+Found component: seda via type: org.apache.camel.component.seda.SedaComponent via: META-INF/services/org/apache/camel/component/seda
+Discovered component property configurer: seda -> org.apache.camel.component.seda.SedaComponentConfigurer@2584b82d
+Discovered endpoint property configurer: seda -> org.apache.camel.component.seda.SedaEndpointConfigurer@626abbd0
+Creating endpoint uri=[seda://end], path=[end]
+seda://end converted to endpoint: seda://end by component: org.apache.camel.component.seda.SedaComponent@46d59067
+Initialize channel for target: 'To[seda:end]'
+Creating default HeadersMapFactory
+Using HeadersMapFactory: org.apache.camel.impl.engine.DefaultHeadersMapFactory@d2de489
+Using ReactiveExecutor: org.apache.camel.impl.engine.DefaultReactiveExecutor@14bdbc74
+Warming up route id: route1 having autoStartup=true
+Starting services on route: route1
+Starting child service on route: route1 -> Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$1@7674f035]], Channel[sendTo(log://?level=INFO)], Channel[sendTo(jms://infoqueue)], Channel[SetHeader(ena, yes)], Channel[choice{when Filter[if: header{ena} == yes do: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$2@6f10d5b6]], Channel[SetHeader(bunch, yes)], Channel[choice{when Filter[if: header{bunch} == yes do: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$3@433defed]], Channel[sendTo(jms://tranqueue)], Channel[sendTo(log://?level=error)]]]], otherwise: Channel[Log(route1)[Single]]}]]]], otherwise: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$4@194fad1]], Channel[sendTo(mock://result)]]]}]]]
+Starting producer: Producer[log://?level=INFO]
+Starting producer: Producer[jms://infoqueue]
+Starting producer: Producer[jms://tranqueue]
+Starting producer: Producer[log://?level=error]
+Starting producer: Producer[mock://result]
+Starting child service on route: route1 -> Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$1@7674f035]], Channel[sendTo(log://?level=INFO)], Channel[sendTo(jms://infoqueue)], Channel[SetHeader(ena, yes)], Channel[choice{when Filter[if: header{ena} == yes do: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$2@6f10d5b6]], Channel[SetHeader(bunch, yes)], Channel[choice{when Filter[if: header{bunch} == yes do: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$3@433defed]], Channel[sendTo(jms://tranqueue)], Channel[sendTo(log://?level=error)]]]], otherwise: Channel[Log(route1)[Single]]}]]]], otherwise: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$4@194fad1]], Channel[sendTo(mock://result)]]]}]]]
+Starting child service on route: route1 -> DelegateSync[com.process.LoggingProcess$1$1@7674f035]
+Starting child service on route: route1 -> Channel[DelegateSync[com.process.LoggingProcess$1$1@7674f035]]
+Starting child service on route: route1 -> sendTo(log://?level=INFO)
+Starting child service on route: route1 -> Channel[sendTo(log://?level=INFO)]
+Starting child service on route: route1 -> sendTo(jms://infoqueue)
+Starting child service on route: route1 -> Channel[sendTo(jms://infoqueue)]
+Starting child service on route: route1 -> SetHeader(ena, yes)
+Starting child service on route: route1 -> Channel[SetHeader(ena, yes)]
+Starting child service on route: route1 -> choice{when Filter[if: header{ena} == yes do: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$2@6f10d5b6]], Channel[SetHeader(bunch, yes)], Channel[choice{when Filter[if: header{bunch} == yes do: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$3@433defed]], Channel[sendTo(jms://tranqueue)], Channel[sendTo(log://?level=error)]]]], otherwise: Channel[Log(route1)[Single]]}]]]], otherwise: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$4@194fad1]], Channel[sendTo(mock://result)]]]}
+Starting child service on route: route1 -> Channel[choice{when Filter[if: header{ena} == yes do: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$2@6f10d5b6]], Channel[SetHeader(bunch, yes)], Channel[choice{when Filter[if: header{bunch} == yes do: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$3@433defed]], Channel[sendTo(jms://tranqueue)], Channel[sendTo(log://?level=error)]]]], otherwise: Channel[Log(route1)[Single]]}]]]], otherwise: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$4@194fad1]], Channel[sendTo(mock://result)]]]}]
+Starting child service on route: route1 -> Filter[if: header{ena} == yes do: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$2@6f10d5b6]], Channel[SetHeader(bunch, yes)], Channel[choice{when Filter[if: header{bunch} == yes do: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$3@433defed]], Channel[sendTo(jms://tranqueue)], Channel[sendTo(log://?level=error)]]]], otherwise: Channel[Log(route1)[Single]]}]]]]
+Starting child service on route: route1 -> Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$2@6f10d5b6]], Channel[SetHeader(bunch, yes)], Channel[choice{when Filter[if: header{bunch} == yes do: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$3@433defed]], Channel[sendTo(jms://tranqueue)], Channel[sendTo(log://?level=error)]]]], otherwise: Channel[Log(route1)[Single]]}]]]
+Starting child service on route: route1 -> DelegateSync[com.process.LoggingProcess$1$2@6f10d5b6]
+Starting child service on route: route1 -> Channel[DelegateSync[com.process.LoggingProcess$1$2@6f10d5b6]]
+Starting child service on route: route1 -> SetHeader(bunch, yes)
+Starting child service on route: route1 -> Channel[SetHeader(bunch, yes)]
+Starting child service on route: route1 -> choice{when Filter[if: header{bunch} == yes do: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$3@433defed]], Channel[sendTo(jms://tranqueue)], Channel[sendTo(log://?level=error)]]]], otherwise: Channel[Log(route1)[Single]]}
+Starting child service on route: route1 -> Channel[choice{when Filter[if: header{bunch} == yes do: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$3@433defed]], Channel[sendTo(jms://tranqueue)], Channel[sendTo(log://?level=error)]]]], otherwise: Channel[Log(route1)[Single]]}]
+Starting child service on route: route1 -> Filter[if: header{bunch} == yes do: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$3@433defed]], Channel[sendTo(jms://tranqueue)], Channel[sendTo(log://?level=error)]]]]
+Starting child service on route: route1 -> Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$3@433defed]], Channel[sendTo(jms://tranqueue)], Channel[sendTo(log://?level=error)]]]
+Starting child service on route: route1 -> DelegateSync[com.process.LoggingProcess$1$3@433defed]
+Starting child service on route: route1 -> Channel[DelegateSync[com.process.LoggingProcess$1$3@433defed]]
+Starting child service on route: route1 -> sendTo(jms://tranqueue)
+Starting child service on route: route1 -> Channel[sendTo(jms://tranqueue)]
+Starting child service on route: route1 -> sendTo(log://?level=error)
+Starting child service on route: route1 -> Channel[sendTo(log://?level=error)]
+Starting child service on route: route1 -> Log(route1)[Single]
+Starting child service on route: route1 -> Channel[Log(route1)[Single]]
+Starting child service on route: route1 -> Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$4@194fad1]], Channel[sendTo(mock://result)]]]
+Starting child service on route: route1 -> DelegateSync[com.process.LoggingProcess$1$4@194fad1]
+Starting child service on route: route1 -> Channel[DelegateSync[com.process.LoggingProcess$1$4@194fad1]]
+Starting child service on route: route1 -> sendTo(mock://result)
+Starting child service on route: route1 -> Channel[sendTo(mock://result)]
+Warming up route id: route2 having autoStartup=true
+Starting services on route: route2
+Using destinationName: tranqueue on listenerContainer: org.apache.camel.component.jms.DefaultJmsMessageListenerContainer@3116c353
+Created new CachedThreadPool for source: Consumer[jms://tranqueue] with name: JmsConsumer[tranqueue]. -> java.util.concurrent.ThreadPoolExecutor@3e44f2a5[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+Starting child service on route: route2 -> Pipeline[[Channel[sendTo(seda://end)]]]
+Created queue seda://end with size 1000
+Starting producer: Producer[seda://end]
+Starting child service on route: route2 -> Pipeline[[Channel[sendTo(seda://end)]]]
+Starting child service on route: route2 -> sendTo(seda://end)
+Starting child service on route: route2 -> Channel[sendTo(seda://end)]
+Route: route1 >>> EventDrivenConsumerRoute[direct://start -> Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$1@7674f035]], Channel[sendTo(log://?level=INFO)], Channel[sendTo(jms://infoqueue)], Channel[SetHeader(ena, yes)], Channel[choice{when Filter[if: header{ena} == yes do: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$2@6f10d5b6]], Channel[SetHeader(bunch, yes)], Channel[choice{when Filter[if: header{bunch} == yes do: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$3@433defed]], Channel[sendTo(jms://tranqueue)], Channel[sendTo(log://?level=error)]]]], otherwise: Channel[Log(route1)[Single]]}]]]], otherwise: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$4@194fad1]], Channel[sendTo(mock://result)]]]}]]]]
+Starting consumer (order: 1000) on route: route1
+Init consumer: Consumer[direct://start]
+Starting consumer: Consumer[direct://start]
+Route: route2 >>> EventDrivenConsumerRoute[jms://tranqueue -> Pipeline[[Channel[sendTo(seda://end)]]]]
+Starting consumer (order: 1001) on route: route2
+Init consumer: Consumer[jms://tranqueue]
+Starting consumer: Consumer[jms://tranqueue]
+Initialized TaskRunnerFactory[ActiveMQ Task] using ExecutorService: java.util.concurrent.ThreadPoolExecutor@1e4d3ce5[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+Reconnect was triggered but transport is not started yet. Wait for start to connect the transport.
+Started unconnected
+Waking up reconnect task
+Established shared JMS Connection
+urlList connectionList:[tcp://localhost:61616], from: [tcp://localhost:61616]
+Resumed paused task: org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker@5d43661b
+Attempting 0th connect to: tcp://localhost:61616
+Sending: WireFormatInfo { version=12, properties={TcpNoDelayEnabled=true, SizePrefixDisabled=false, CacheSize=1024, ProviderName=ActiveMQ, StackTraceEnabled=true, PlatformDetails=Java, CacheEnabled=true, TightEncodingEnabled=true, MaxFrameSize=9223372036854775807, MaxInactivityDuration=30000, MaxInactivityDurationInitalDelay=10000, ProviderVersion=5.15.4}, magic=[A,c,t,i,v,e,M,Q]}
+Connection established
+Using min of local: WireFormatInfo { version=12, properties={TcpNoDelayEnabled=true, SizePrefixDisabled=false, CacheSize=1024, ProviderName=ActiveMQ, StackTraceEnabled=true, PlatformDetails=Java, CacheEnabled=true, TightEncodingEnabled=true, MaxFrameSize=9223372036854775807, MaxInactivityDuration=30000, MaxInactivityDurationInitalDelay=10000, ProviderVersion=5.15.4}, magic=[A,c,t,i,v,e,M,Q]} and remote: WireFormatInfo { version=12, properties={TcpNoDelayEnabled=true, SizePrefixDisabled=false, CacheSize=1024, ProviderName=ActiveMQ, StackTraceEnabled=true, PlatformDetails=Java, CacheEnabled=true, TightEncodingEnabled=true, MaxFrameSize=104857600, MaxInactivityDuration=30000, MaxInactivityDurationInitalDelay=10000, ProviderVersion=5.15.11}, magic=[A,c,t,i,v,e,M,Q]}
+Received WireFormat: WireFormatInfo { version=12, properties={TcpNoDelayEnabled=true, SizePrefixDisabled=false, CacheSize=1024, ProviderName=ActiveMQ, StackTraceEnabled=true, PlatformDetails=Java, CacheEnabled=true, TightEncodingEnabled=true, MaxFrameSize=104857600, MaxInactivityDuration=30000, MaxInactivityDurationInitalDelay=10000, ProviderVersion=5.15.11}, magic=[A,c,t,i,v,e,M,Q]}
+tcp://localhost/127.0.0.1:61616@64364 before negotiation: OpenWireFormat{version=12, cacheEnabled=false, stackTraceEnabled=false, tightEncodingEnabled=false, sizePrefixDisabled=false, maxFrameSize=9223372036854775807}
+tcp://localhost/127.0.0.1:61616@64364 after negotiation: OpenWireFormat{version=12, cacheEnabled=true, stackTraceEnabled=true, tightEncodingEnabled=true, sizePrefixDisabled=false, maxFrameSize=104857600}
+Started listener container org.apache.camel.component.jms.DefaultJmsMessageListenerContainer@3116c353 on destination tranqueue
+Initialized TaskRunnerFactory[ActiveMQ Session Task] using ExecutorService: java.util.concurrent.ThreadPoolExecutor@41fd4b23[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+Starting producer: Producer[direct://start]
+>>>> direct://start Exchange[]
+Received message of type [class org.apache.activemq.command.ActiveMQTextMessage] from consumer [ActiveMQMessageConsumer { value=ID:Lakshya-64363-1583751572725-1:1:1:1, started=true }] of session [ActiveMQSession {id=ID:Lakshya-64363-1583751572725-1:1:1,started=true} java.lang.Object@4847fa17]
+jms://tranqueue consumer received JMS message: ActiveMQTextMessage {commandId = 5, responseRequired = true, messageId = ID:Lakshya-64356-1583751410694-1:2:1:1:1, originalDestination = null, originalTransactionId = null, producerId = ID:Lakshya-64356-1583751410694-1:2:1:1, destination = queue://tranqueue, transactionId = null, expiration = 0, timestamp = 1583751411231, arrival = 0, brokerInTime = 1583751411232, brokerOutTime = 1583751573077, correlationId = null, replyTo = null, persistent = true, type = null, priority = 4, groupID = null, groupSequence = 0, targetConsumerId = null, compressed = false, userID = null, content = org.apache.activemq.util.ByteSequence@2aa13432, marshalledProperties = null, dataStructure = null, redeliveryCounter = 0, size = 0, properties = null, readOnlyProperties = true, readOnlyBody = true, droppable = false, jmsXGroupFirstForConsumer = false, text = 0 : Hello : msgCode-100 : 10min : ProcessNAme...ceName : 2.0}
+Queuing reactive work: Step[ID-Lakshya-1583751572625-0-1,DefaultErrorHandler[DelegateSync[com.process.LoggingProcess$1$1@7674f035]]]
+Queuing reactive work: CamelInternalProcessor - UnitOfWork - afterProcess - DefaultErrorHandler[DelegateSync[com.process.LoggingProcess$1$1@7674f035]] - ID-Lakshya-1583751572625-0-1
+Queuing reactive work: Step[ID-Lakshya-1583751572625-0-2,DefaultErrorHandler[sendTo(seda://end)]]
+Queuing reactive work: CamelInternalProcessor - UnitOfWork - afterProcess - DefaultErrorHandler[sendTo(seda://end)] - ID-Lakshya-1583751572625-0-2
+>>>> seda://end Exchange[ID-Lakshya-1583751572625-0-2]
+Queuing reactive work: Callback[org.apache.camel.processor.CamelInternalProcessor$$Lambda$521/1515403487@3e74829]
+Queuing reactive work: Callback[org.apache.camel.processor.Pipeline$$Lambda$523/892083096@4f6f416f]
+Queuing reactive work: Step[ID-Lakshya-1583751572625-0-1,Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$1@7674f035]], Channel[sendTo(log://?level=INFO)], Channel[sendTo(jms://infoqueue)], Channel[SetHeader(ena, yes)], Channel[choice{when Filter[if: header{ena} == yes do: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$2@6f10d5b6]], Channel[SetHeader(bunch, yes)], Channel[choice{when Filter[if: header{bunch} == yes do: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$3@433defed]], Channel[sendTo(jms://tranqueue)], Channel[sendTo(log://?level=error)]]]], otherwise: Channel[Log(route1)[Single]]}]]]], otherwise: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$4@194fad1]], Channel[sendTo(mock://result)]]]}]]]]
+Queuing reactive work: Step[ID-Lakshya-1583751572625-0-1,DefaultErrorHandler[sendTo(log://?level=INFO)]]
+Queuing reactive work: CamelInternalProcessor - UnitOfWork - afterProcess - DefaultErrorHandler[sendTo(log://?level=INFO)] - ID-Lakshya-1583751572625-0-1
+>>>> log://?level=INFO Exchange[ID-Lakshya-1583751572625-0-1]
+Queuing reactive work: Callback[org.apache.camel.processor.CamelInternalProcessor$$Lambda$521/1515403487@38ba6ce3]
+Queuing reactive work: Callback[org.apache.camel.processor.Pipeline$$Lambda$523/892083096@d278d2b]
+Queuing reactive work: Step[ID-Lakshya-1583751572625-0-1,Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$1@7674f035]], Channel[sendTo(log://?level=INFO)], Channel[sendTo(jms://infoqueue)], Channel[SetHeader(ena, yes)], Channel[choice{when Filter[if: header{ena} == yes do: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$2@6f10d5b6]], Channel[SetHeader(bunch, yes)], Channel[choice{when Filter[if: header{bunch} == yes do: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$3@433defed]], Channel[sendTo(jms://tranqueue)], Channel[sendTo(log://?level=error)]]]], otherwise: Channel[Log(route1)[Single]]}]]]], otherwise: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$4@194fad1]], Channel[sendTo(mock://result)]]]}]]]]
+Queuing reactive work: Step[ID-Lakshya-1583751572625-0-1,DefaultErrorHandler[sendTo(jms://infoqueue)]]
+Queuing reactive work: CamelInternalProcessor - UnitOfWork - afterProcess - DefaultErrorHandler[sendTo(jms://infoqueue)] - ID-Lakshya-1583751572625-0-1
+>>>> jms://infoqueue Exchange[ID-Lakshya-1583751572625-0-1]
+Queuing reactive work: Callback[org.apache.camel.processor.CamelInternalProcessor$$Lambda$521/1515403487@707f755a]
+Queuing reactive work: Callback[org.apache.camel.processor.Pipeline$$Lambda$523/892083096@18e311d]
+Queuing reactive work: Step[ID-Lakshya-1583751572625-0-2,Pipeline[[Channel[sendTo(seda://end)]]]]
+Queuing reactive work: Callback[org.apache.camel.processor.CamelInternalProcessor$$Lambda$521/1515403487@2b232ed6]
+Initialized TaskRunnerFactory[ActiveMQ Task] using ExecutorService: java.util.concurrent.ThreadPoolExecutor@436c81a3[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+Reconnect was triggered but transport is not started yet. Wait for start to connect the transport.
+Started unconnected
+Waking up reconnect task
+Queuing reactive work: Callback[org.apache.camel.impl.engine.DefaultAsyncProcessorAwaitManager$$Lambda$518/2092801316@2331975f]
+urlList connectionList:[tcp://localhost:61616], from: [tcp://localhost:61616]
+Attempting 0th connect to: tcp://localhost:61616
+Sending: WireFormatInfo { version=12, properties={TcpNoDelayEnabled=true, SizePrefixDisabled=false, CacheSize=1024, ProviderName=ActiveMQ, StackTraceEnabled=true, PlatformDetails=Java, CacheEnabled=true, TightEncodingEnabled=true, MaxFrameSize=9223372036854775807, MaxInactivityDuration=30000, MaxInactivityDurationInitalDelay=10000, ProviderVersion=5.15.4}, magic=[A,c,t,i,v,e,M,Q]}
+Connection established
+Using min of local: WireFormatInfo { version=12, properties={TcpNoDelayEnabled=true, SizePrefixDisabled=false, CacheSize=1024, ProviderName=ActiveMQ, StackTraceEnabled=true, PlatformDetails=Java, CacheEnabled=true, TightEncodingEnabled=true, MaxFrameSize=9223372036854775807, MaxInactivityDuration=30000, MaxInactivityDurationInitalDelay=10000, ProviderVersion=5.15.4}, magic=[A,c,t,i,v,e,M,Q]} and remote: WireFormatInfo { version=12, properties={TcpNoDelayEnabled=true, SizePrefixDisabled=false, CacheSize=1024, ProviderName=ActiveMQ, StackTraceEnabled=true, PlatformDetails=Java, CacheEnabled=true, TightEncodingEnabled=true, MaxFrameSize=104857600, MaxInactivityDuration=30000, MaxInactivityDurationInitalDelay=10000, ProviderVersion=5.15.11}, magic=[A,c,t,i,v,e,M,Q]}
+Received WireFormat: WireFormatInfo { version=12, properties={TcpNoDelayEnabled=true, SizePrefixDisabled=false, CacheSize=1024, ProviderName=ActiveMQ, StackTraceEnabled=true, PlatformDetails=Java, CacheEnabled=true, TightEncodingEnabled=true, MaxFrameSize=104857600, MaxInactivityDuration=30000, MaxInactivityDurationInitalDelay=10000, ProviderVersion=5.15.11}, magic=[A,c,t,i,v,e,M,Q]}
+tcp://localhost/127.0.0.1:61616@64365 before negotiation: OpenWireFormat{version=12, cacheEnabled=false, stackTraceEnabled=false, tightEncodingEnabled=false, sizePrefixDisabled=false, maxFrameSize=9223372036854775807}
+tcp://localhost/127.0.0.1:61616@64365 after negotiation: OpenWireFormat{version=12, cacheEnabled=true, stackTraceEnabled=true, tightEncodingEnabled=true, sizePrefixDisabled=false, maxFrameSize=104857600}
+Executing callback on JMS Session: ActiveMQSession {id=ID:Lakshya-64363-1583751572725-1:2:1,started=false} java.lang.Object@609db546
+Sending JMS message to: queue://infoqueue with message: ActiveMQTextMessage {commandId = 0, responseRequired = false, messageId = null, originalDestination = null, originalTransactionId = null, producerId = null, destination = null, transactionId = null, expiration = 0, timestamp = 0, arrival = 0, brokerInTime = 0, brokerOutTime = 0, correlationId = null, replyTo = null, persistent = true, type = null, priority = 0, groupID = null, groupSequence = 0, targetConsumerId = null, compressed = false, userID = null, content = null, marshalledProperties = null, dataStructure = null, redeliveryCounter = 0, size = 0, properties = null, readOnlyProperties = false, readOnlyBody = false, droppable = false, jmsXGroupFirstForConsumer = false, text = 0 : Hello : msgCode-100 : 10min : ProcessNAme : step2}
+Shutdown of ExecutorService: java.util.concurrent.ThreadPoolExecutor@79dc5318[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0] is shutdown: true and terminated: true took: 0.000 seconds.
+Stopped tcp://localhost:61616
+Forcing shutdown of ExecutorService: java.util.concurrent.ThreadPoolExecutor@436c81a3[Running, pool size = 2, active threads = 0, queued tasks = 0, completed tasks = 2]
+Stopping transport tcp://localhost/127.0.0.1:61616@64365
+Initialized TaskRunnerFactory[ActiveMQ Task] using ExecutorService: java.util.concurrent.ThreadPoolExecutor@54eb2b70[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+Closed socket Socket[addr=localhost/127.0.0.1,port=61616,localport=64365]
+Forcing shutdown of ExecutorService: java.util.concurrent.ThreadPoolExecutor@54eb2b70[Running, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+Queuing reactive work: Callback[org.apache.camel.processor.CamelInternalProcessor$$Lambda$521/1515403487@63611043]
+Queuing reactive work: Callback[org.apache.camel.processor.Pipeline$$Lambda$523/892083096@20ca951f]
+Queuing reactive work: Step[ID-Lakshya-1583751572625-0-1,Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$1@7674f035]], Channel[sendTo(log://?level=INFO)], Channel[sendTo(jms://infoqueue)], Channel[SetHeader(ena, yes)], Channel[choice{when Filter[if: header{ena} == yes do: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$2@6f10d5b6]], Channel[SetHeader(bunch, yes)], Channel[choice{when Filter[if: header{bunch} == yes do: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$3@433defed]], Channel[sendTo(jms://tranqueue)], Channel[sendTo(log://?level=error)]]]], otherwise: Channel[Log(route1)[Single]]}]]]], otherwise: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$4@194fad1]], Channel[sendTo(mock://result)]]]}]]]]
+Queuing reactive work: Step[ID-Lakshya-1583751572625-0-1,DefaultErrorHandler[SetHeader(ena, yes)]]
+Queuing reactive work: CamelInternalProcessor - UnitOfWork - afterProcess - DefaultErrorHandler[SetHeader(ena, yes)] - ID-Lakshya-1583751572625-0-1
+Queuing reactive work: Callback[org.apache.camel.processor.CamelInternalProcessor$$Lambda$521/1515403487@2d778add]
+Queuing reactive work: Callback[org.apache.camel.processor.Pipeline$$Lambda$523/892083096@73302995]
+Queuing reactive work: Step[ID-Lakshya-1583751572625-0-1,Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$1@7674f035]], Channel[sendTo(log://?level=INFO)], Channel[sendTo(jms://infoqueue)], Channel[SetHeader(ena, yes)], Channel[choice{when Filter[if: header{ena} == yes do: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$2@6f10d5b6]], Channel[SetHeader(bunch, yes)], Channel[choice{when Filter[if: header{bunch} == yes do: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$3@433defed]], Channel[sendTo(jms://tranqueue)], Channel[sendTo(log://?level=error)]]]], otherwise: Channel[Log(route1)[Single]]}]]]], otherwise: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$4@194fad1]], Channel[sendTo(mock://result)]]]}]]]]
+Queuing reactive work: Step[ID-Lakshya-1583751572625-0-1,DefaultErrorHandler[choice{when Filter[if: header{ena} == yes do: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$2@6f10d5b6]], Channel[SetHeader(bunch, yes)], Channel[choice{when Filter[if: header{bunch} == yes do: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$3@433defed]], Channel[sendTo(jms://tranqueue)], Channel[sendTo(log://?level=error)]]]], otherwise: Channel[Log(route1)[Single]]}]]]], otherwise: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$4@194fad1]], Channel[sendTo(mock://result)]]]}]]
+Queuing reactive work: CamelInternalProcessor - UnitOfWork - afterProcess - DefaultErrorHandler[choice{when Filter[if: header{ena} == yes do: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$2@6f10d5b6]], Channel[SetHeader(bunch, yes)], Channel[choice{when Filter[if: header{bunch} == yes do: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$3@433defed]], Channel[sendTo(jms://tranqueue)], Channel[sendTo(log://?level=error)]]]], otherwise: Channel[Log(route1)[Single]]}]]]], otherwise: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$4@194fad1]], Channel[sendTo(mock://result)]]]}] - ID-Lakshya-1583751572625-0-1
+Lookup Language with name header in registry. Found: null
+Lookup Language with name header-language in registry. Found: null
+Filter matches: true for exchange: Exchange[ID-Lakshya-1583751572625-0-1]
+Queuing reactive work: Step[ID-Lakshya-1583751572625-0-1,Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$2@6f10d5b6]], Channel[SetHeader(bunch, yes)], Channel[choice{when Filter[if: header{bunch} == yes do: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$3@433defed]], Channel[sendTo(jms://tranqueue)], Channel[sendTo(log://?level=error)]]]], otherwise: Channel[Log(route1)[Single]]}]]]]
+Queuing reactive work: Step[ID-Lakshya-1583751572625-0-1,DefaultErrorHandler[DelegateSync[com.process.LoggingProcess$1$2@6f10d5b6]]]
+Queuing reactive work: CamelInternalProcessor - UnitOfWork - afterProcess - DefaultErrorHandler[DelegateSync[com.process.LoggingProcess$1$2@6f10d5b6]] - ID-Lakshya-1583751572625-0-1
+Queuing reactive work: Callback[org.apache.camel.processor.CamelInternalProcessor$$Lambda$521/1515403487@1e44b638]
+Queuing reactive work: Callback[org.apache.camel.processor.Pipeline$$Lambda$523/892083096@7393222f]
+Queuing reactive work: Step[ID-Lakshya-1583751572625-0-1,Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$2@6f10d5b6]], Channel[SetHeader(bunch, yes)], Channel[choice{when Filter[if: header{bunch} == yes do: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$3@433defed]], Channel[sendTo(jms://tranqueue)], Channel[sendTo(log://?level=error)]]]], otherwise: Channel[Log(route1)[Single]]}]]]]
+Queuing reactive work: Step[ID-Lakshya-1583751572625-0-1,DefaultErrorHandler[SetHeader(bunch, yes)]]
+Queuing reactive work: CamelInternalProcessor - UnitOfWork - afterProcess - DefaultErrorHandler[SetHeader(bunch, yes)] - ID-Lakshya-1583751572625-0-1
+Queuing reactive work: Callback[org.apache.camel.processor.CamelInternalProcessor$$Lambda$521/1515403487@babafc2]
+Queuing reactive work: Callback[org.apache.camel.processor.Pipeline$$Lambda$523/892083096@31add175]
+Queuing reactive work: Step[ID-Lakshya-1583751572625-0-1,Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$2@6f10d5b6]], Channel[SetHeader(bunch, yes)], Channel[choice{when Filter[if: header{bunch} == yes do: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$3@433defed]], Channel[sendTo(jms://tranqueue)], Channel[sendTo(log://?level=error)]]]], otherwise: Channel[Log(route1)[Single]]}]]]]
+Queuing reactive work: Step[ID-Lakshya-1583751572625-0-1,DefaultErrorHandler[choice{when Filter[if: header{bunch} == yes do: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$3@433defed]], Channel[sendTo(jms://tranqueue)], Channel[sendTo(log://?level=error)]]]], otherwise: Channel[Log(route1)[Single]]}]]
+Queuing reactive work: CamelInternalProcessor - UnitOfWork - afterProcess - DefaultErrorHandler[choice{when Filter[if: header{bunch} == yes do: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$3@433defed]], Channel[sendTo(jms://tranqueue)], Channel[sendTo(log://?level=error)]]]], otherwise: Channel[Log(route1)[Single]]}] - ID-Lakshya-1583751572625-0-1
+Filter matches: true for exchange: Exchange[ID-Lakshya-1583751572625-0-1]
+Queuing reactive work: Step[ID-Lakshya-1583751572625-0-1,Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$3@433defed]], Channel[sendTo(jms://tranqueue)], Channel[sendTo(log://?level=error)]]]]
+Queuing reactive work: Step[ID-Lakshya-1583751572625-0-1,DefaultErrorHandler[DelegateSync[com.process.LoggingProcess$1$3@433defed]]]
+Queuing reactive work: CamelInternalProcessor - UnitOfWork - afterProcess - DefaultErrorHandler[DelegateSync[com.process.LoggingProcess$1$3@433defed]] - ID-Lakshya-1583751572625-0-1
+Queuing reactive work: Callback[org.apache.camel.processor.CamelInternalProcessor$$Lambda$521/1515403487@ae3540e]
+Queuing reactive work: Callback[org.apache.camel.processor.Pipeline$$Lambda$523/892083096@600b9d27]
+Queuing reactive work: Step[ID-Lakshya-1583751572625-0-1,Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$3@433defed]], Channel[sendTo(jms://tranqueue)], Channel[sendTo(log://?level=error)]]]]
+Queuing reactive work: Step[ID-Lakshya-1583751572625-0-1,DefaultErrorHandler[sendTo(jms://tranqueue)]]
+Queuing reactive work: CamelInternalProcessor - UnitOfWork - afterProcess - DefaultErrorHandler[sendTo(jms://tranqueue)] - ID-Lakshya-1583751572625-0-1
+>>>> jms://tranqueue Exchange[ID-Lakshya-1583751572625-0-1]
+Initialized TaskRunnerFactory[ActiveMQ Task] using ExecutorService: java.util.concurrent.ThreadPoolExecutor@3688eb5b[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+Reconnect was triggered but transport is not started yet. Wait for start to connect the transport.
+Started unconnected
+Waking up reconnect task
+urlList connectionList:[tcp://localhost:61616], from: [tcp://localhost:61616]
+Attempting 0th connect to: tcp://localhost:61616
+Sending: WireFormatInfo { version=12, properties={TcpNoDelayEnabled=true, SizePrefixDisabled=false, CacheSize=1024, ProviderName=ActiveMQ, StackTraceEnabled=true, PlatformDetails=Java, CacheEnabled=true, TightEncodingEnabled=true, MaxFrameSize=9223372036854775807, MaxInactivityDuration=30000, MaxInactivityDurationInitalDelay=10000, ProviderVersion=5.15.4}, magic=[A,c,t,i,v,e,M,Q]}
+Connection established
+Using min of local: WireFormatInfo { version=12, properties={TcpNoDelayEnabled=true, SizePrefixDisabled=false, CacheSize=1024, ProviderName=ActiveMQ, StackTraceEnabled=true, PlatformDetails=Java, CacheEnabled=true, TightEncodingEnabled=true, MaxFrameSize=9223372036854775807, MaxInactivityDuration=30000, MaxInactivityDurationInitalDelay=10000, ProviderVersion=5.15.4}, magic=[A,c,t,i,v,e,M,Q]} and remote: WireFormatInfo { version=12, properties={TcpNoDelayEnabled=true, SizePrefixDisabled=false, CacheSize=1024, ProviderName=ActiveMQ, StackTraceEnabled=true, PlatformDetails=Java, CacheEnabled=true, TightEncodingEnabled=true, MaxFrameSize=104857600, MaxInactivityDuration=30000, MaxInactivityDurationInitalDelay=10000, ProviderVersion=5.15.11}, magic=[A,c,t,i,v,e,M,Q]}
+Received WireFormat: WireFormatInfo { version=12, properties={TcpNoDelayEnabled=true, SizePrefixDisabled=false, CacheSize=1024, ProviderName=ActiveMQ, StackTraceEnabled=true, PlatformDetails=Java, CacheEnabled=true, TightEncodingEnabled=true, MaxFrameSize=104857600, MaxInactivityDuration=30000, MaxInactivityDurationInitalDelay=10000, ProviderVersion=5.15.11}, magic=[A,c,t,i,v,e,M,Q]}
+tcp://localhost/127.0.0.1:61616@64366 before negotiation: OpenWireFormat{version=12, cacheEnabled=false, stackTraceEnabled=false, tightEncodingEnabled=false, sizePrefixDisabled=false, maxFrameSize=9223372036854775807}
+tcp://localhost/127.0.0.1:61616@64366 after negotiation: OpenWireFormat{version=12, cacheEnabled=true, stackTraceEnabled=true, tightEncodingEnabled=true, sizePrefixDisabled=false, maxFrameSize=104857600}
+Executing callback on JMS Session: ActiveMQSession {id=ID:Lakshya-64363-1583751572725-1:3:1,started=false} java.lang.Object@457c9034
+Sending JMS message to: queue://tranqueue with message: ActiveMQTextMessage {commandId = 0, responseRequired = false, messageId = null, originalDestination = null, originalTransactionId = null, producerId = null, destination = null, transactionId = null, expiration = 0, timestamp = 0, arrival = 0, brokerInTime = 0, brokerOutTime = 0, correlationId = null, replyTo = null, persistent = true, type = null, priority = 0, groupID = null, groupSequence = 0, targetConsumerId = null, compressed = false, userID = null, content = null, marshalledProperties = null, dataStructure = null, redeliveryCounter = 0, size = 0, properties = null, readOnlyProperties = false, readOnlyBody = false, droppable = false, jmsXGroupFirstForConsumer = false, text = 0 : Hello : msgCode-100 : 10min : ProcessNAme...ceName : 2.0}
+Received message of type [class org.apache.activemq.command.ActiveMQTextMessage] from consumer [ActiveMQMessageConsumer { value=ID:Lakshya-64363-1583751572725-1:1:1:1, started=true }] of session [ActiveMQSession {id=ID:Lakshya-64363-1583751572725-1:1:1,started=true} java.lang.Object@4847fa17]
+jms://tranqueue consumer received JMS message: ActiveMQTextMessage {commandId = 5, responseRequired = true, messageId = ID:Lakshya-64363-1583751572725-1:3:1:1:1, originalDestination = null, originalTransactionId = null, producerId = ID:Lakshya-64363-1583751572725-1:3:1:1, destination = queue://tranqueue, transactionId = null, expiration = 0, timestamp = 1583751573350, arrival = 0, brokerInTime = 1583751573351, brokerOutTime = 1583751573355, correlationId = null, replyTo = null, persistent = true, type = null, priority = 4, groupID = null, groupSequence = 0, targetConsumerId = null, compressed = false, userID = null, content = org.apache.activemq.util.ByteSequence@5ae71dd8, marshalledProperties = null, dataStructure = null, redeliveryCounter = 0, size = 0, properties = null, readOnlyProperties = true, readOnlyBody = true, droppable = false, jmsXGroupFirstForConsumer = false, text = 0 : Hello : msgCode-100 : 10min : ProcessNAme...ceName : 2.0}
+Queuing reactive work: Step[ID-Lakshya-1583751572625-0-3,DefaultErrorHandler[sendTo(seda://end)]]
+Queuing reactive work: CamelInternalProcessor - UnitOfWork - afterProcess - DefaultErrorHandler[sendTo(seda://end)] - ID-Lakshya-1583751572625-0-3
+>>>> seda://end Exchange[ID-Lakshya-1583751572625-0-3]
+Queuing reactive work: Callback[org.apache.camel.processor.CamelInternalProcessor$$Lambda$521/1515403487@42ced537]
+Queuing reactive work: Callback[org.apache.camel.processor.Pipeline$$Lambda$523/892083096@2ad20a32]
+Queuing reactive work: Step[ID-Lakshya-1583751572625-0-3,Pipeline[[Channel[sendTo(seda://end)]]]]
+Queuing reactive work: Callback[org.apache.camel.processor.CamelInternalProcessor$$Lambda$521/1515403487@14f3d30c]
+Queuing reactive work: Callback[org.apache.camel.impl.engine.DefaultAsyncProcessorAwaitManager$$Lambda$518/2092801316@76181597]
+Shutdown of ExecutorService: java.util.concurrent.ThreadPoolExecutor@50de186c[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0] is shutdown: true and terminated: true took: 0.000 seconds.
+Stopped tcp://localhost:61616
+Forcing shutdown of ExecutorService: java.util.concurrent.ThreadPoolExecutor@3688eb5b[Running, pool size = 2, active threads = 0, queued tasks = 0, completed tasks = 2]
+Stopping transport tcp://localhost/127.0.0.1:61616@64366
+Initialized TaskRunnerFactory[ActiveMQ Task] using ExecutorService: java.util.concurrent.ThreadPoolExecutor@3f57bcad[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+Closed socket Socket[addr=localhost/127.0.0.1,port=61616,localport=64366]
+Forcing shutdown of ExecutorService: java.util.concurrent.ThreadPoolExecutor@3f57bcad[Running, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+Queuing reactive work: Callback[org.apache.camel.processor.CamelInternalProcessor$$Lambda$521/1515403487@51549490]
+Queuing reactive work: Callback[org.apache.camel.processor.Pipeline$$Lambda$523/892083096@71e9ebae]
+Queuing reactive work: Step[ID-Lakshya-1583751572625-0-1,Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$3@433defed]], Channel[sendTo(jms://tranqueue)], Channel[sendTo(log://?level=error)]]]]
+Queuing reactive work: Step[ID-Lakshya-1583751572625-0-1,DefaultErrorHandler[sendTo(log://?level=error)]]
+Queuing reactive work: CamelInternalProcessor - UnitOfWork - afterProcess - DefaultErrorHandler[sendTo(log://?level=error)] - ID-Lakshya-1583751572625-0-1
+>>>> log://?level=error Exchange[ID-Lakshya-1583751572625-0-1]
+Queuing reactive work: Callback[org.apache.camel.processor.CamelInternalProcessor$$Lambda$521/1515403487@73d983ea]
+Queuing reactive work: Callback[org.apache.camel.processor.Pipeline$$Lambda$523/892083096@36a5cabc]
+Queuing reactive work: Step[ID-Lakshya-1583751572625-0-1,Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$3@433defed]], Channel[sendTo(jms://tranqueue)], Channel[sendTo(log://?level=error)]]]]
+Queuing reactive work: Callback[org.apache.camel.processor.ChoiceProcessor$1@432038ec]
+Queuing reactive work: Callback[org.apache.camel.processor.CamelInternalProcessor$$Lambda$521/1515403487@7daa0fbd]
+Queuing reactive work: Callback[org.apache.camel.processor.Pipeline$$Lambda$523/892083096@42530531]
+Queuing reactive work: Step[ID-Lakshya-1583751572625-0-1,Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$2@6f10d5b6]], Channel[SetHeader(bunch, yes)], Channel[choice{when Filter[if: header(bunch) == yes do: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$3@433defed]], Channel[sendTo(jms://tranqueue)], Channel[sendTo(log://?level=error)]]]], otherwise: Channel[Log(route1)[Single]]}]]]]
+Queuing reactive work: Callback[org.apache.camel.processor.ChoiceProcessor$1@5a3bc7ed]
+Queuing reactive work: Callback[org.apache.camel.processor.CamelInternalProcessor$$Lambda$521/1515403487@181e731e]
+Queuing reactive work: Callback[org.apache.camel.processor.Pipeline$$Lambda$523/892083096@35645047]
+Queuing reactive work: Step[ID-Lakshya-1583751572625-0-1,Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$1@7674f035]], Channel[sendTo(log://?level=INFO)], Channel[sendTo(jms://infoqueue)], Channel[SetHeader(ena, yes)], Channel[choice{when Filter[if: header(ena) == yes do: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$2@6f10d5b6]], Channel[SetHeader(bunch, yes)], Channel[choice{when Filter[if: header(bunch) == yes do: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$3@433defed]], Channel[sendTo(jms://tranqueue)], Channel[sendTo(log://?level=error)]]]], otherwise: Channel[Log(route1)[Single]]}]]]], otherwise: Pipeline[[Channel[DelegateSync[com.process.LoggingProcess$1$4@194fad1]], Channel[sendTo(mock://result)]]]}]]]]
+Queuing reactive work: Callback[org.apache.camel.processor.CamelInternalProcessor$$Lambda$521/1515403487@6f44a157]
+Queuing reactive work: Callback[org.apache.camel.processor.SharedCamelInternalProcessor$InternalCallback@6bc407fd]
+Queuing reactive work: Callback[org.apache.camel.impl.engine.DefaultAsyncProcessorAwaitManager$$Lambda$518/2092801316@291f18]
+<<<< seda://end
